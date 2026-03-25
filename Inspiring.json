@@ -1,0 +1,59 @@
+{
+	"type": "imbuement",
+	"key": "imbue:inspiring",
+	"label": "Inspiring",
+	"itemPredicate": [{"gte":["refinement:skill:performance",0]}],
+	"monsterPredicate": ["item:type:undefined"],
+	"header": {
+		"description": "You imbue the item with an energy that inspires your allies. You cannot use spellshapes when casting spells from this item.",
+		"labels": [
+			{	
+				"levelMin": 3,
+				"levelMax": 4,
+				"text": "This item can hold a maximum of one charge, which it regains at daily preparations."
+			},
+			{	
+				"levelMin": 5,
+				"levelMax": 6,
+				"text": "This item can hold a maximum of two charges, which it regains at daily preparations."
+			},
+			{	
+				"levelMin": 7,
+				"levelMax": 19,
+				"text": "This item can hold a maximum of three charges, which it regains at daily preparations."
+			},
+			{	
+				"levelMin": 20,
+				"text": "This item can hold a maximum of five charges, which it regains at daily preparations. Once per day, as a free action, you can roll a DC 5 Flat Check. On a success, this item regains up to three of its charges, five on a critical success. On a failure, the imbuement loses its potency, immediately dropping this Imbued Property to level 17."
+			},
+			{
+				"levelMin": 3,
+				"text": "You can expend one charge to cast one of the following spells"
+			},
+			{
+				"levelMin": 3,
+				"text": "@UUID[Compendium.pf2e.spells-srd.IAjvwqgiDr3qGYxY]{Courageous Anthem}"
+			},
+			{
+				"levelMin": 5,
+				"text": "@UUID[Compendium.pf2e.spells-srd.bH0kPuf7UKxRvi2P]{Rallying Anthem}"
+			},
+			{
+				"levelMin": 5,
+				"text": "@UUID[Compendium.pf2e.spells-srd.c8R2fpk88fBwJ1ie]{Triple Time}"
+			},
+			{
+				"levelMin": 7,
+				"text": "@UUID[Compendium.pf2e.spells-srd.LTUaK3smfm5eDiFK]{Song of Marching}"
+			},
+			{
+				"levelMin": 15,
+				"text": "@UUID[Compendium.pf2e.spells-srd.0JigNJDRwevZOyjI]{Soothing Ballad}"
+			},
+			{
+				"levelMin": 17,
+				"text": "@UUID[Compendium.pf2e.spells-srd.IQchIYUwbsVTa9Mc]{Allegro}"
+			}
+		]
+	}
+}

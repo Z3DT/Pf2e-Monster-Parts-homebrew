@@ -1,0 +1,20 @@
+{
+	"type": "refinement",
+	"key": "refinement:armor:light-barding",
+	"label": "Barding (Light)",
+	"itemPredicate": [
+		"item:type:armor",
+		{
+			"or": [
+				"item:category:light-barding",
+				"item:category:medium-barding",
+				"item:category:heavy-barding"
+			]
+		}
+], 
+	"monsterPredicate": [],
+	"header": {
+		"description": "Barding uses the same rules as armor except for the following. The Price and Bulk of barding depend on the animal’s size. Barding can’t be etched with magic runes and can't be refined to increase the item bonus they grant like normal armors nor can they gain imbued properties, though special magical barding might be available.",
+		"labels": []
+	}
+}

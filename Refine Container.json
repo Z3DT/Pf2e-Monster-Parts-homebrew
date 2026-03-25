@@ -1,0 +1,35 @@
+{
+	"type": "refinement",
+	"key": "refinement:container",
+	"label": "Container",
+	"itemPredicate": ["item:type:backpack"],
+	"monsterPredicate": ["item:type:undefined"],
+	"header": {
+		"description": "Con(Due to limitations with Rule Elements, you must edit the Bulk Capacity and Bulk Ignored settings manually on the Details page)",
+		"labels": [
+			{
+				"levelMin": 2,
+				"text": "The Bulk of items inside the container does not count towards your carried weight"
+			},
+			{
+				"levelMin": 4,
+				"levelMax": 6,
+				"text": "The capacity of the container increases by 20 bulk, up to a maximum capacity of 25 bulk"
+			},
+			{
+				"levelMin": 7,
+				"levelMax": 10,
+				"text": "The capacity of the container increases by a total of 45 bulk, up to a maximum capacity of 50 bulk"
+			},
+			{
+				"levelMin": 11,
+				"levelMax": 12,
+				"text": "The capacity of the container increases by a total of 95 bulk, up to a maximum capacity of 100 bulk"
+			},
+			{
+				"levelMin": 13,
+				"text": "The capacity of the container increases by a total of 145 bulk, up to a maximum capacity of 150 bulk"
+			}
+		]
+	}
+}
