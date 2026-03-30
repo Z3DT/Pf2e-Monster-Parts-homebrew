@@ -1,0 +1,181 @@
+[
+	{
+		"type": "imbuement",
+		"key": "imbue:air-magic",
+		"label": "Air (Magic)",
+		"itemPredicate": [
+			"item:type:weapon"
+		],
+		"monsterPredicate": [
+			"item:type:action",
+			"item:trait:air"
+		],
+		"header": {
+			"description": "You imbue the weapon with slicing blades of wind. Choose when you first imbue the weapon for the granted spells to be either arcane or primal.",
+			"labels": [
+				{
+					"levelMin": 2,
+					"text": "The weapon can cast gale blast as a cantrip, heightened to half the item's level rounded up."
+				},
+				{
+					"levelMin": 4,
+					"text": "The weapon can cast gust of wind once per day."
+				},
+				{
+					"levelMin": 6,
+					"levelMax": 13,
+					"text": "Strikes with the weapon deal 1 additional slashing damage from blades of wind; this additional damage has the air trait."
+				},
+				{
+					"levelMin": 8,
+					"text": "The weapon can cast wall of wind once per day."
+				},
+				{
+					"levelMin": 10,
+					"text": "The weapon can cast air walk once per day."
+				},
+				{
+					"levelMin": 12,
+					"levelMax": 17,
+					"text": "The weapon can cast elemental gift (air only) once per day."
+				},
+				{
+					"levelMin": 14,
+					"levelMax": 15,
+					"text": "Strikes with the weapon deal 1d4 additional slashing damage from blades of wind; this additional damage has the air trait."
+				},
+				{
+					"levelMin": 16,
+					"text": "Strikes with the weapon deal 1d6 additional slashing damage from blades of wind; this additional damage has the air trait."
+				},
+				{
+					"levelMin": 18,
+					"text": "The weapon can cast 8th-rank elemental gift (air only) once per day."
+				},
+				{
+					"levelMin": 20,
+					"text": "The weapon can cast 9th-rank whirlwind once per day."
+				}
+			]
+		},
+		"effects": []
+	},
+	{
+		"type": "imbuement",
+		"key": "imbue:air-might",
+		"label": "Air (Might)",
+		"itemPredicate": [
+			"item:type:weapon"
+		],
+		"monsterPredicate": [
+			"item:type:action",
+			"item:trait:air"
+		],
+		"header": {
+			"description": "You imbue the weapon with slicing blades of wind.",
+			"labels": [
+				{
+					"levelMin": 4,
+					"levelMax": 5,
+					"text": "Strikes with the weapon deal 1 additional slashing damage from blades of wind; this additional damage has the air trait."
+				},
+				{
+					"levelMin": 6,
+					"levelMax": 7,
+					"text": "Strikes with the weapon deal 1d4 additional slashing damage from blades of wind; this additional damage has the air trait."
+				},
+				{
+					"levelMin": 8,
+					"levelMax": 17,
+					"text": "Strikes with the weapon deal 1d6 additional slashing damage from blades of wind; this additional damage has the air trait."
+				},
+				{
+					"levelMin": 8,
+					"levelMax": 13,
+					"text": "On a critical hit, you can push the target up to 5 feet away from you."
+				},
+				{
+					"levelMin": 12,
+					"text": "The additional slashing damage dealt by this imbued property ignores resistances. Even if the main weapon deals slashing damage, this benefit only applies to the additional damage."
+				},
+				{
+					"levelMin": 14,
+					"text": "On a critical hit with the weapon, you can push the target up to 10 feet away from you."
+				},
+				{
+					"levelMin": 18,
+					"text": "Strikes with the weapon deal 1d8 additional slashing damage from blades of wind; this additional damage has the air trait."
+				},
+				{
+					"levelMin": 20,
+					"text": "Strikes with the weapon deal 1d4 additional slashing damage from blades of wind; this additional damage has the air trait."
+				}
+			]
+		},
+		"effects": []
+	},
+	{
+		"type": "imbuement",
+		"key": "imbue:air-technique",
+		"label": "Air (Technique)",
+		"itemPredicate": [
+			"item:type:weapon"
+		],
+		"monsterPredicate": [
+			"item:type:action",
+			"item:trait:air"
+		],
+		"header": {
+			"description": "You imbue the weapon with slicing blades of wind.",
+			"labels": [
+				{
+					"levelMin": 4,
+					"levelMax": 7,
+					"text": "Strikes with the weapon deal 1 persistent slashing damage as blades of wind surround and slash them; this additional damage has the air trait."
+				},
+				{
+					"levelMin": 6,
+					"levelMax": 20,
+					"text": "Strikes with the weapon deal 1 additional slashing damage from blades of wind; this additional damage has the air trait."
+				},
+				{
+					"levelMin": 8,
+					"levelMax": 13,
+					"text": "Strikes with the weapon deal 1d6 persistent slashing damage as blades of wind surround and slash them; this additional damage has the air trait."
+				},
+				{
+					"levelMin": 14,
+					"levelMax": 17,
+					"text": "Strikes with the weapon deal 1d8 persistent slashing damage as blades of wind surround and slash them; this additional damage has the air trait."
+				},
+				{
+					"levelMin": 18,
+					"text": "Strikes with the weapon deal 1d10 persistent slashing damage as blades of wind surround and slash them; this additional damage has the air trait."
+				},
+				{
+					"levelMin": 8,
+					"levelMax": 15,
+					"text": "On a critical hit, you can push the target up to 5 feet away from you."
+				},
+				{
+					"levelMin": 16,
+					"levelMax": 19,
+					"text": "On a critical hit, you can push the target up to 10 feet away from you."
+				},
+				{
+					"levelMin": 20,
+					"text": "On a critical hit, you can push the target up to 10 feet away from you."
+				},
+				{
+					"levelMin": 16,
+					"text": "While suffering from the persistent slashing damage, the surrounding blades of air damage the creature the more it moves, slashing at them each time they do. All terrain is hazardous terrain for them, dealing 2 slashing damage for each square through which they move (this includes the movement from being pushed by a critical hit)."
+				},
+				{
+					"levelMin": 12,
+					"text": "The additional damage and persistent slashing damage dealt by this imbued property ignores resistances (as does the damage from hazardous terrain caused by this imbued property's 16th level effect). Even if the main weapon deals slashing damage, this benefit only applies to the slashing damage from this imbued property."
+				}
+			]
+		},
+		"effects": []
+	}
+]
