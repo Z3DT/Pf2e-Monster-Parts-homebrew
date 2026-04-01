@@ -3,9 +3,10 @@ A repo for homebrewed Refinements and Imbued Properties for use with the PF2e/SF
 Feel free to submit Pull Requests or dm me with your own homebrew refinement and imbued property JSONs. That way we can have one central collection of homebrew
 
 # JSONs for official imbuements
-Added because the Kromko module doesn't have these properties yet as a band-aid solution:
-- Air (S&A)
-- Darkness (S&A)
+Added because the Kromko module doesn't have these properties yet, as a band-aid solution:
+- Air (S&U)
+- Darkness (S&U)
+- Earth (S&U)
 
 # List of Homebrew + Credit
 ### Refinements

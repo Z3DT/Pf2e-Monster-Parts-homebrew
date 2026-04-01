@@ -1,0 +1,176 @@
+[
+	{
+		"type": "imbuement",
+		"key": "imbue:earth-magic",
+		"label": "Earth (Magic)",
+		"itemPredicate": [
+			"item:type:weapon"
+		],
+		"monsterPredicate": [
+			"item:type:action",
+			"item:trait:earth"
+		],
+		"header": {
+			"description": "NOTE!!!: The effects of this imbuement have not yet been automated. You imbue the weapon with churning earth. Choose when you first imbue the weapon for the granted spells to be either arcane or primal.",
+			"labels": [
+				{
+					"levelMin": 2,
+					"text": "The weapon can cast scatter screeSOM as a cantrip, heightened to half the item’s level rounded up"
+				},
+				{
+					"levelMin": 4,
+					"levelMax": 5,
+					"text": "The weapon can cast pummeling rubble once per day."
+				},
+				{
+					"levelMin": 6,
+					"levelMax": 11,
+					"text": "The weapon can cast pummeling rubble once per day as a 2nd-rank spell"
+				},
+				{
+					"levelMin": 8,
+					"levelMax": 11,
+					"text": "The weapon can cast earthbind once per day"
+				},
+				{
+					"levelMin": 12,
+					"levelMax": 15,
+					"text": "The weapon can cast pummeling rubble, earthbind and stoneskin once per day each as a 4th-rank spell"
+				},
+				{
+					"levelMin": 16,
+					"levelMax": 17,
+					"text": "The weapon can cast pummeling rubble, earthbind, and stoneskin once per day each as a 6th-rank spell"
+				},
+				{
+					"levelMin": 20,
+					"text": "The weapon can cast pummeling rubble, earthbind, stoneskin and earthquake once per day each as an 8th-rank spell"
+				},
+				{
+					"levelMin": 10,
+					"levelMax": 13,
+					"text": "Strikes with the weapon deal 1 additional piercing damage from spikes of stone; this additional damage has the earth trait."
+				},
+				{
+					"levelMin": 14,
+					"levelMax": 17,
+					"text": "Strikes with the weapon deal 1d4 additional piercing damage from spikes of stone; this additional damage has the earth trait."
+				},
+				{
+					"levelMin": 18,
+					"text": "Strikes with the weapon deal 1d6 additional piercing damage from spikes of stone; this additional damage has the earth trait."
+				}
+			]
+		},
+		"effects": []
+	},
+	{
+		"type": "imbuement",
+		"key": "imbue:earth-might",
+		"label": "Earth (Might)",
+		"itemPredicate": [
+			"item:type:weapon"
+		],
+		"monsterPredicate": [
+			"item:type:action",
+			"item:trait:earth"
+		],
+		"header": {
+			"description": "NOTE!!!: The effects of this imbuement have not yet been automated. You imbue the weapon with churning earth.",
+			"labels": [
+				{
+					"levelMin": 4,
+					"levelMax": 5,
+					"text": "Strikes with the weapon deal 1 additional piercing damage from spikes of stone; this additional damage has the earth trait"
+				},
+				{
+					"levelMin": 6,
+					"levelMax": 7,
+					"text": "Strikes with the weapon deal 1d4 additional piercing damage from spikes of stone; this additional damage has the earth trait"
+				},
+				{
+					"levelMin": 8,
+					"levelMax": 17,
+					"text": "Strikes with the weapon deal 1d6 additional piercing damage from spikes of stone; this additional damage has the earth trait"
+				},
+				{
+					"levelMin": 18,
+					"text": "Strikes with the weapon deal 1d8 additional piercing damage from spikes of stone; this additional damage has the earth trait"
+				},
+				{
+					"levelMin": 12,
+					"text": "The additional piercing damage dealt by this imbued property ignores resistances. Even if the weapon normally deals piercing damage, this benefit only applies to the additional damage."
+				},
+				{
+					"levelMin": 20,
+					"text": "On a successful Strike with the weapon, before applying the additional piercing damage, the target gains weakness 1 to earth until the beginning of your next turn"
+				},
+				{
+					"levelMin": 8,
+					"levelMax": 13,
+					"text": "On a critical hit, the piercing rock shards attach the target’s feet to the ground, forcing extra effort to break the rocks and move from its current space. As long as it was on the ground, its first 5 feet of movement are difficult terrain, typically preventing it from Stepping. This effect lasts until it moves or for 1 minute, whichever comes first."
+				},
+				{
+					"levelMin": 14,
+					"text": "On a critical hit, the piercing rock shards attach the target’s feet to the ground, forcing extra effort to break the rocks and move from its current space. As long as it was on the ground, its first 5 feet of movement are difficult terrain, typically preventing it from Stepping. This effect lasts until it moves or for 1 minute, whichever comes first. If the creature breaks the rocks connecting it to the ground by moving, it takes an additional 1d8 piercing damage, which has the earth trait. If the creature instead chooses to wait the effect out for 1 minute without moving, it doesn’t take the additional damage."
+				}
+			]
+		}
+	},
+	{
+		"type": "imbuement",
+		"key": "imbue:earth-technique",
+		"label": "Earth (Technique)",
+		"itemPredicate": [
+			"item:type:weapon"
+		],
+		"monsterPredicate": [
+			"item:type:action",
+			"item:trait:earth"
+		],
+		"header": {
+			"description": "NOTE!!!: The effects of this imbuement have not yet been automated. You imbue the weapon with churning earth.",
+			"labels": [
+				{
+					"levelMin": 4,
+					"levelMax": 5,
+					"text": "Strikes with the weapon deal 1 persistent piercing damage as stone spikes grow and pierce them; this additional damage has the earth trait."
+				},
+				{
+					"levelMin": 6,
+					"levelMax": 7,
+					"text": "Strikes with the weapon deal 1 additional piercing damage from spikes of stone and 1 persistent piercing as stone spikes grow and pierce them; this additional damage and persistent damage each have the earth trait"
+				},
+				{
+					"levelMin": 8,
+					"levelMax": 13,
+					"text": "Strikes with the weapon deal 1 additional piercing damage from spikes of stone and 1d6 persistent piercing as stone spikes grow and pierce them; this additional damage and persistent damage each have the earth trait"
+				},
+				{
+					"levelMin": 14,
+					"levelMax": "Strikes with the weapon deal 1 additional piercing damage from spikes of stone and 1d8 persistent piercing as stone spikes grow and pierce them; this additional damage and persistent damage each have the earth trait"
+				},
+				{
+					"levelMin": 17,
+					"text": "Strikes with the weapon deal 1 additional piercing damage from spikes of stone and 1d10 persistent piercing as stone spikes grow and pierce them; this additional damage and persistent damage each have the earth trait"
+				},
+				{
+					"levelMin": 12,
+					"text": "The additional damage and persistent piercing damage dealt by this imbued property ignores resistances. Even if the main weapon deals piercing damage, this benefit only applies to the piercing damage from this imbued property"
+				},
+				{
+					"levelMin": 16,
+					"text": "While a target is suffering from the persistent piercing damage, the earth spikes growing on the target transform into an earthen shield that blocks their attacks against you. Whenever they hit you with a Strike, you gain resistance to physical damage (except adamantine) to that Strike with a value equal to the persistent piercing damage."
+				},
+				{
+					"levelMin": 20,
+					"text": "Foes suffering from the persistent piercing damage become very partially petrified in their extremities, making fine movements difficult. They are clumsy 1 as long as they have the persistent piercing damage."
+				},
+				{
+					"levelMin": 8,
+					"text": "On a critical hit, the piercing rock shards attach the target’s feet to the ground, forcing extra effort to move from its current space. As long as it was on the ground, its first 5 feet of movement are difficult terrain, typically preventing it from Stepping. This effect lasts until it moves or for 1 minute, whichever comes first."
+				}
+			]
+		}
+	}
+]

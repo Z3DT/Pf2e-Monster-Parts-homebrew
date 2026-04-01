@@ -11,7 +11,7 @@
 			"item:trait:darkness"
 		],
 		"header": {
-			"description": "You imbue the weapon with creeping darkness. Choose when you first imbue the weapon for the granted spells to be either arcane or divine.",
+			"description": "NOTE!!!: The effects of this imbuement have not yet been automated. You imbue the weapon with creeping darkness. Choose when you first imbue the weapon for the granted spells to be either arcane or divine.",
 			"labels": [
 				{
 					"levelMin": 2,
@@ -75,7 +75,7 @@
 			"item:trait:darkness"
 		],
 		"header": {
-			"description": "You imbue the weapon with creeping darkness.",
+			"description": "NOTE!!!: The effects of this imbuement have not yet been automated. You imbue the weapon with creeping darkness.",
 			"labels": [
 				{
 					"levelMin": 4,
@@ -128,7 +128,7 @@
 			"item:trait:darkness"
 		],
 		"header": {
-			"description": "You imbue the weapon with creeping darkness.",
+			"description": "NOTE!!!: The effects of this imbuement have not yet been automated. You imbue the weapon with creeping darkness.",
 			"labels": [
 				{
 					"levelMin": 4,
