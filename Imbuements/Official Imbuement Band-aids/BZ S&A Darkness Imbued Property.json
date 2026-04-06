@@ -1,7 +1,7 @@
 [
 	{
 		"type": "imbuement",
-		"key": "imbue:darkness-magic",
+		"key": "imbue:darkness:magic",
 		"label": "Darkness (Magic)",
 		"itemPredicate": [
 			"item:type:weapon"
@@ -65,7 +65,7 @@
 	},
 	{
 		"type": "imbuement",
-		"key": "imbue:darkness-might",
+		"key": "imbue:darkness:might",
 		"label": "Darkness (Might)",
 		"itemPredicate": [
 			"item:type:weapon"
@@ -118,7 +118,7 @@
 	},
 	{
 		"type": "imbuement",
-		"key": "imbue:darkness-technique",
+		"key": "imbue:darkness:tech",
 		"label": "Darkness (Technique)",
 		"itemPredicate": [
 			"item:type:weapon"
