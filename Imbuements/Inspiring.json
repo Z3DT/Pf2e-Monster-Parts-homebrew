@@ -2,8 +2,14 @@
 	"type": "imbuement",
 	"key": "imbue:inspiring",
 	"label": "Inspiring",
-	"itemPredicate": [{"gte":["refinement:skill:performance",0]}],
-	"monsterPredicate": ["item:type:undefined"],
+	"itemPredicate": [
+		{
+			"gte":[
+				"item:refinement:skill:performance",0
+				]
+		}
+	],
+	"monsterPredicate": ["item:type:thispredicatedoesnotexist"],
 	"header": {
 		"description": "You imbue the item with an energy that inspires your allies. You cannot use spellshapes when casting spells from this item.",
 		"labels": [
