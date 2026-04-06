@@ -1,0 +1,417 @@
+[
+	{
+		"type": "imbuement",
+		"key": "imbue:dark-armor",
+		"label": "Dark Armor",
+		"itemPredicate": [
+			"item:type:armor"
+		],
+		"monsterPredicate": [
+            {
+                "or": [
+                    "self:trait:darkness",
+					"self:trait:shadow",
+                    {
+                        "or": [
+                            {
+                                "and": [
+                                    "item:type:action",
+									{"or": [
+										"item:damage:type:darkness",
+										"item:damage:type:shadow",
+										"item:trait:darkness",
+										"item:trait:shadow"
+										]
+									}
+                                ]
+                            },
+                            {
+                                "and": [
+                                    "item:type:spell",
+                                    {"or": [
+										"item:damage:type:darkness",
+										"item:damage:type:shadow",
+										"item:trait:darkness",
+										"item:trait:shadow"
+										]
+									}
+                                ]
+                            }
+                        ]
+                    }
+                ]
+			}
+		],
+		"header": {
+			"description": "This imbuement has not been implemented in the Monster Parts Module yet, so you'll have to apply the effects manually. Ask your GM for access to @UUID[Compendium.battlezoo-bestiary-es-pf2e.journals.fdIszM08XRK0s42e.JournalEntryPage.jR1WQitzcUbbbQKR]{Armor Imbued Property @ 3. Monster Parts}",
+			"labels": []
+		},
+		"effects": []
+	},
+	{
+		"type": "imbuement",
+		"key": "imbue:earth-armor",
+		"label": "Earth Armor",
+		"itemPredicate": [
+			"item:type:armor"
+		],
+		"monsterPredicate": [
+            {
+                "or": [
+                    "self:trait:earth",
+                    {
+                        "or": [
+                            {
+                                "and": [
+                                    "item:type:action",
+									{"or": [
+										"item:damage:type:earth",
+										"item:trait:earth"
+										]
+									}
+                                ]
+                            },
+                            {
+                                "and": [
+                                    "item:type:spell",
+                                    {"or": [
+										"item:damage:type:earth",
+										"item:trait:earth"
+										]
+									}
+                                ]
+                            }
+                        ]
+                    }
+                ]
+			}
+		],
+		"header": {
+			"description": "This imbuement has not been implemented in the Monster Parts Module yet, so you'll have to apply the effects manually. Ask your GM for access to @UUID[Compendium.battlezoo-bestiary-es-pf2e.journals.fdIszM08XRK0s42e.JournalEntryPage.jR1WQitzcUbbbQKR]{Armor Imbued Property @ 3. Monster Parts}",
+			"labels": []
+		},
+		"effects": []
+	},
+	{
+		"type": "imbuement",
+		"key": "imbue:lifeward-armor",
+		"label": "Lifeward Armor",
+		"itemPredicate": [
+			"item:type:armor"
+		],
+		"monsterPredicate": [
+            {
+                "or": [
+                    "self:trait:vitality",
+                    {
+                        "or": [
+                            {
+                                "and": [
+                                    "item:type:action",
+									{"or": [
+										"item:damage:type:vitality",
+										"item:trait:vitality"
+										]
+									}
+                                ]
+                            },
+                            {
+                                "and": [
+                                    "item:type:spell",
+                                    {"or": [
+										"item:damage:type:vitality",
+										"item:trait:vitality"
+										]
+									}
+                                ]
+                            }
+                        ]
+                    }
+                ]
+			}
+		],
+		"header": {
+			"description": "This imbuement has not been implemented in the Monster Parts Module yet, so you'll have to apply the effects manually. Ask your GM for access to @UUID[Compendium.battlezoo-bestiary-es-pf2e.journals.fdIszM08XRK0s42e.JournalEntryPage.jR1WQitzcUbbbQKR]{Armor Imbued Property @ 3. Monster Parts}",
+			"labels": []
+		},
+		"effects": []
+	},
+	{
+		"type": "imbuement",
+		"key": "imbue:poisonous-armor",
+		"label": "Poisonous Armor",
+		"itemPredicate": [
+			"item:type:armor"
+		],
+		"monsterPredicate": [
+            {
+                "or": [
+                    "self:trait:poison",
+                    {
+                        "or": [
+                            {
+                                "and": [
+                                    "item:type:action",
+									{"or": [
+										"item:damage:type:poison",
+										"item:trait:poison"
+										]
+									}
+                                ]
+                            },
+                            {
+                                "and": [
+                                    "item:type:spell",
+                                    {"or": [
+										"item:damage:type:poison",
+										"item:trait:poison"
+										]
+									}
+                                ]
+                            }
+                        ]
+                    }
+                ]
+			}
+		],
+		"header": {
+			"description": "This imbuement has not been implemented in the Monster Parts Module yet, so you'll have to apply the effects manually. Ask your GM for access to @UUID[Compendium.battlezoo-bestiary-es-pf2e.journals.fdIszM08XRK0s42e.JournalEntryPage.jR1WQitzcUbbbQKR]{Armor Imbued Property @ 3. Monster Parts}",
+			"labels": []
+		},
+		"effects": []
+	},
+	{
+		"type": "imbuement",
+		"key": "imbue:fire-shield",
+		"label": "Fire Shield",
+		"itemPredicate": [
+			"item:type:shield"
+		],
+		"monsterPredicate": [
+            {
+                "or": [
+                    "self:trait:fire",
+                    {
+                        "or": [
+                            {
+                                "and": [
+                                    "item:type:action",
+									{"or": [
+										"item:damage:type:fire",
+										"item:trait:fire"
+										]
+									}
+                                ]
+                            },
+                            {
+                                "and": [
+                                    "item:type:spell",
+                                    {"or": [
+										"item:damage:type:fire",
+										"item:trait:fire"
+										]
+									}
+                                ]
+                            }
+                        ]
+                    }
+                ]
+			}
+		],
+		"header": {
+			"description": "This imbuement has not been implemented in the Monster Parts Module yet, so you'll have to apply the effects manually. Ask your GM for access to @UUID[Compendium.battlezoo-bestiary-es-pf2e.journals.fdIszM08XRK0s42e.JournalEntryPage.7qIgLz9UEIPs6k8s]{Shield Imbued Property @ 3. Monster Parts}",
+			"labels": []
+		},
+		"effects": []
+	},
+	{
+		"type": "imbuement",
+		"key": "imbue:mind-shield",
+		"label": "Mind Shield",
+		"itemPredicate": [
+			"item:type:shield"
+		],
+		"monsterPredicate": [
+            {
+                "or": [
+                    "self:trait:astral",
+					"self:trait:mental",
+                    {
+                        "or": [
+                            {
+                                "and": [
+                                    "item:type:action",
+									{"or": [
+										"item:damage:type:astral",
+										"item:damage:type:mental",
+										"item:trait:astral",
+										"item:trait:mental"
+										]
+									}
+                                ]
+                            },
+                            {
+                                "and": [
+                                    "item:type:spell",
+                                    {"or": [
+										"item:damage:type:astral",
+										"item:damage:type:mental",
+										"item:trait:astral",
+										"item:trait:mental"
+										]
+									}
+                                ]
+                            }
+                        ]
+                    }
+                ]
+			}
+		],
+		"header": {
+			"description": "This imbuement has not been implemented in the Monster Parts Module yet, so you'll have to apply the effects manually. Ask your GM for access to @UUID[Compendium.battlezoo-bestiary-es-pf2e.journals.fdIszM08XRK0s42e.JournalEntryPage.7qIgLz9UEIPs6k8s]{Shield Imbued Property @ 3. Monster Parts}",
+			"labels": []
+		},
+		"effects": []
+	},
+	{
+		"type": "imbuement",
+		"key": "imbue:space-shield",
+		"label": "Space Shield",
+		"itemPredicate": [
+			"item:type:shield"
+		],
+		"monsterPredicate": [
+            {
+                "or": [
+                    "self:trait:teleportation",
+                    {
+                        "or": [
+                            {
+                                "and": [
+                                    "item:type:action",
+									{"or": [
+										"item:damage:type:teleportation",
+										"item:trait:teleportation"
+										]
+									}
+                                ]
+                            },
+                            {
+                                "and": [
+                                    "item:type:spell",
+                                    {"or": [
+										"item:damage:type:teleportation",
+										"item:trait:teleportation"
+										]
+									}
+                                ]
+                            }
+                        ]
+                    }
+                ]
+			}
+		],
+		"header": {
+			"description": "This imbuement has not been implemented in the Monster Parts Module yet, so you'll have to apply the effects manually. Ask your GM for access to @UUID[Compendium.battlezoo-bestiary-es-pf2e.journals.fdIszM08XRK0s42e.JournalEntryPage.7qIgLz9UEIPs6k8s]{Shield Imbued Property @ 3. Monster Parts}",
+			"labels": []
+		},
+		"effects": []
+	},
+	{
+		"type": "imbuement",
+		"key": "imbue:tangle-shield",
+		"label": "Tangle Shield",
+		"itemPredicate": [
+			"item:type:shield"
+		],
+		"monsterPredicate": [
+            {
+                "or": [
+                    "self:trait:wood",
+					"self:trait:plant",
+                    {
+                        "or": [
+                            {
+                                "and": [
+                                    "item:type:action",
+									{"or": [
+										"item:damage:type:wood",
+										"item:damage:type:plant",
+										"item:trait:wood",
+										"item:trait:plant"
+										]
+									}
+                                ]
+                            },
+                            {
+                                "and": [
+                                    "item:type:spell",
+                                    {"or": [
+										"item:damage:type:wood",
+										"item:damage:type:plant",
+										"item:trait:wood",
+										"item:trait:plant"
+										]
+									}
+                                ]
+                            }
+                        ]
+                    }
+                ]
+			}
+		],
+		"header": {
+			"description": "This imbuement has not been implemented in the Monster Parts Module yet, so you'll have to apply the effects manually. Ask your GM for access to @UUID[Compendium.battlezoo-bestiary-es-pf2e.journals.fdIszM08XRK0s42e.JournalEntryPage.7qIgLz9UEIPs6k8s]{Shield Imbued Property @ 3. Monster Parts}",
+			"labels": []
+		},
+		"effects": []
+	},
+	{
+		"type": "imbuement",
+		"key": "imbue:burning-barbs",
+		"label": "Burning Barbs",
+		"itemPredicate": [
+		{
+			"gte":[
+				"item:refinement:skill:intimidation",0
+				]
+		}
+	],
+		"monsterPredicate": [
+            {
+                "or": [
+                    "self:trait:fire",
+                    {
+                        "or": [
+                            {
+                                "and": [
+                                    "item:type:action",
+									{"or": [
+										"item:damage:type:fire",
+										"item:trait:fire"
+										]
+									}
+                                ]
+                            },
+                            {
+                                "and": [
+                                    "item:type:spell",
+                                    {"or": [
+										"item:damage:type:fire",
+										"item:trait:fire"
+										]
+									}
+                                ]
+                            }
+                        ]
+                    }
+                ]
+			}
+		],
+		"header": {
+			"description": "This imbuement has not been implemented in the Monster Parts Module yet, so you'll have to apply the effects manually. Ask your GM for access to @UUID[Compendium.battlezoo-bestiary-es-pf2e.journals.fdIszM08XRK0s42e.JournalEntryPage.6EiToFmtJh9KShTi]{Skill Imbued Property @ 3. Monster Parts}",
+			"labels": []
+		},
+		"effects": []
+	}
+]
