@@ -1,3 +1,6 @@
+Apr 6 2026
+- Added band-aid JSON for all of Elemental Storm's imbued properties. This will make them show up when generating parts from monsters and as options when imbuing for the appropriate equipment
+
 Apr 1 2026:
 - Folder structure cleaned up, some files renamed for clarity. Added changelog.
 - Added Earth imbued property band-aid.

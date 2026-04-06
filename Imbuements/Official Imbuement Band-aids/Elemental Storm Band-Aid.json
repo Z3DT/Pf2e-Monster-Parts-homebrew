@@ -413,5 +413,1909 @@
 			"labels": []
 		},
 		"effects": []
+	},
+	{
+		"type": "imbuement",
+		"key": "imbue:body:might",
+		"label": "Body (Might)",
+		"itemPredicate": [{"and": ["item:tag:handwraps-of-mighty-blows","item:type:weapon"]}],
+		"monsterPredicate": [
+            {
+                "or": [
+                    "self:size:huge",
+					"self:size:gargantuan",
+                    {
+                        "or": [
+                            {
+                                "and": [
+                                    "item:type:action",
+									{"or": [
+										"item:trait:morph",
+										"item:trait:polymorph"
+										]
+									}
+                                ]
+                            },
+                            {
+                                "and": [
+                                    "item:type:spell",
+                                    {"or": [
+										"item:trait:morph",
+										"item:trait:polymorph"
+										]
+									}
+                                ]
+                            }
+                        ]
+                    }
+                ]
+			}
+		],
+		"header": {
+			"description": "This imbuement has not been implemented in the Monster Parts Module yet, so you'll have to apply the effects manually. Ask your GM for access to @UUID[Compendium.battlezoo-bestiary-es-pf2e.journals.fdIszM08XRK0s42e.JournalEntryPage.lWDVu4i8zChyqQaT]{Weapon Imbued Property @ 3. Monster Parts}",
+			"labels": []
+		},
+		"effects": []
+	},
+	{
+		"type": "imbuement",
+		"key": "imbue:body:magic",
+		"label": "Body (Magic)",
+		"itemPredicate": [{"and": ["item:tag:handwraps-of-mighty-blows","item:type:weapon"]}],
+		"monsterPredicate": [
+            {
+                "or": [
+                    "self:size:huge",
+					"self:size:gargantuan",
+                    {
+                        "or": [
+                            {
+                                "and": [
+                                    "item:type:action",
+									{"or": [
+										"item:trait:morph",
+										"item:trait:polymorph"
+										]
+									}
+                                ]
+                            },
+                            {
+                                "and": [
+                                    "item:type:spell",
+                                    {"or": [
+										"item:trait:morph",
+										"item:trait:polymorph"
+										]
+									}
+                                ]
+                            }
+                        ]
+                    }
+                ]
+			}
+		],
+		"header": {
+			"description": "This imbuement has not been implemented in the Monster Parts Module yet, so you'll have to apply the effects manually. Ask your GM for access to @UUID[Compendium.battlezoo-bestiary-es-pf2e.journals.fdIszM08XRK0s42e.JournalEntryPage.lWDVu4i8zChyqQaT]{Weapon Imbued Property @ 3. Monster Parts}",
+			"labels": []
+		},
+		"effects": []
+	},
+	{
+		"type": "imbuement",
+		"key": "imbue:body:tech",
+		"label": "Body (Technique)",
+		"itemPredicate": [{"and": ["item:tag:handwraps-of-mighty-blows","item:type:weapon"]}],
+		"monsterPredicate": [
+            {
+                "or": [
+                    "self:size:huge",
+					"self:size:gargantuan",
+                    {
+                        "or": [
+                            {
+                                "and": [
+                                    "item:type:action",
+									{"or": [
+										"item:trait:morph",
+										"item:trait:polymorph"
+										]
+									}
+                                ]
+                            },
+                            {
+                                "and": [
+                                    "item:type:spell",
+                                    {"or": [
+										"item:trait:morph",
+										"item:trait:polymorph"
+										]
+									}
+                                ]
+                            }
+                        ]
+                    }
+                ]
+			}
+		],
+		"header": {
+			"description": "This imbuement has not been implemented in the Monster Parts Module yet, so you'll have to apply the effects manually. Ask your GM for access to @UUID[Compendium.battlezoo-bestiary-es-pf2e.journals.fdIszM08XRK0s42e.JournalEntryPage.lWDVu4i8zChyqQaT]{Weapon Imbued Property @ 3. Monster Parts}",
+			"labels": []
+		},
+		"effects": []
+	},
+	{
+		"type": "imbuement",
+		"key": "imbue:holy:might",
+		"label": "Holy (Might)",
+		"itemPredicate": [
+			"item:type:weapon"
+		],
+		"monsterPredicate": [
+            {
+                "or": [
+                    "self:trait:holy",
+                    {
+                        "or": [
+                            {
+                                "and": [
+                                    "item:type:action",
+									{"or": [
+										"item:damage:type:holy",
+										"item:trait:holy"
+										]
+									}
+                                ]
+                            },
+                            {
+                                "and": [
+                                    "item:type:spell",
+                                    {"or": [
+										"item:damage:type:holy",
+										"item:trait:holy"
+										]
+									}
+                                ]
+                            }
+                        ]
+                    }
+                ]
+			}
+		],
+		"header": {
+			"description": "This imbuement has not been implemented in the Monster Parts Module yet, so you'll have to apply the effects manually. Ask your GM for access to @UUID[Compendium.battlezoo-bestiary-es-pf2e.journals.fdIszM08XRK0s42e.JournalEntryPage.lWDVu4i8zChyqQaT]{Weapon Imbued Property @ 3. Monster Parts}",
+			"labels": []
+		},
+		"effects": []
+	},
+	{
+		"type": "imbuement",
+		"key": "imbue:holy:magic",
+		"label": "Holy (Magic)",
+		"itemPredicate": [
+			"item:type:weapon"
+		],
+		"monsterPredicate": [
+            {
+                "or": [
+                    "self:trait:holy",
+                    {
+                        "or": [
+                            {
+                                "and": [
+                                    "item:type:action",
+									{"or": [
+										"item:damage:type:holy",
+										"item:trait:holy"
+										]
+									}
+                                ]
+                            },
+                            {
+                                "and": [
+                                    "item:type:spell",
+                                    {"or": [
+										"item:damage:type:holy",
+										"item:trait:holy"
+										]
+									}
+                                ]
+                            }
+                        ]
+                    }
+                ]
+			}
+		],
+		"header": {
+			"description": "This imbuement has not been implemented in the Monster Parts Module yet, so you'll have to apply the effects manually. Ask your GM for access to @UUID[Compendium.battlezoo-bestiary-es-pf2e.journals.fdIszM08XRK0s42e.JournalEntryPage.lWDVu4i8zChyqQaT]{Weapon Imbued Property @ 3. Monster Parts}",
+			"labels": []
+		},
+		"effects": []
+	},
+	{
+		"type": "imbuement",
+		"key": "imbue:holy:tech",
+		"label": "Holy (Technique)",
+		"itemPredicate": [
+			"item:type:weapon"
+		],
+		"monsterPredicate": [
+            {
+                "or": [
+                    "self:trait:holy",
+                    {
+                        "or": [
+                            {
+                                "and": [
+                                    "item:type:action",
+									{"or": [
+										"item:damage:type:holy",
+										"item:trait:holy"
+										]
+									}
+                                ]
+                            },
+                            {
+                                "and": [
+                                    "item:type:spell",
+                                    {"or": [
+										"item:damage:type:holy",
+										"item:trait:holy"
+										]
+									}
+                                ]
+                            }
+                        ]
+                    }
+                ]
+			}
+		],
+		"header": {
+			"description": "This imbuement has not been implemented in the Monster Parts Module yet, so you'll have to apply the effects manually. Ask your GM for access to @UUID[Compendium.battlezoo-bestiary-es-pf2e.journals.fdIszM08XRK0s42e.JournalEntryPage.lWDVu4i8zChyqQaT]{Weapon Imbued Property @ 3. Monster Parts}",
+			"labels": []
+		},
+		"effects": []
+	},
+	{
+		"type": "imbuement",
+		"key": "imbue:unholy:might",
+		"label": "Unholy (Might)",
+		"itemPredicate": [
+			"item:type:weapon"
+		],
+		"monsterPredicate": [
+            {
+                "or": [
+                    "self:trait:unholy",
+                    {
+                        "or": [
+                            {
+                                "and": [
+                                    "item:type:action",
+									{"or": [
+										"item:damage:type:unholy",
+										"item:trait:unholy"
+										]
+									}
+                                ]
+                            },
+                            {
+                                "and": [
+                                    "item:type:spell",
+                                    {"or": [
+										"item:damage:type:unholy",
+										"item:trait:unholy"
+										]
+									}
+                                ]
+                            }
+                        ]
+                    }
+                ]
+			}
+		],
+		"header": {
+			"description": "This imbuement has not been implemented in the Monster Parts Module yet, so you'll have to apply the effects manually. Ask your GM for access to @UUID[Compendium.battlezoo-bestiary-es-pf2e.journals.fdIszM08XRK0s42e.JournalEntryPage.lWDVu4i8zChyqQaT]{Weapon Imbued Property @ 3. Monster Parts}",
+			"labels": []
+		},
+		"effects": []
+	},
+	{
+		"type": "imbuement",
+		"key": "imbue:unholy:magic",
+		"label": "Unholy (Magic)",
+		"itemPredicate": [
+			"item:type:weapon"
+		],
+		"monsterPredicate": [
+            {
+                "or": [
+                    "self:trait:unholy",
+                    {
+                        "or": [
+                            {
+                                "and": [
+                                    "item:type:action",
+									{"or": [
+										"item:damage:type:unholy",
+										"item:trait:unholy"
+										]
+									}
+                                ]
+                            },
+                            {
+                                "and": [
+                                    "item:type:spell",
+                                    {"or": [
+										"item:damage:type:unholy",
+										"item:trait:unholy"
+										]
+									}
+                                ]
+                            }
+                        ]
+                    }
+                ]
+			}
+		],
+		"header": {
+			"description": "This imbuement has not been implemented in the Monster Parts Module yet, so you'll have to apply the effects manually. Ask your GM for access to @UUID[Compendium.battlezoo-bestiary-es-pf2e.journals.fdIszM08XRK0s42e.JournalEntryPage.lWDVu4i8zChyqQaT]{Weapon Imbued Property @ 3. Monster Parts}",
+			"labels": []
+		},
+		"effects": []
+	},
+	{
+		"type": "imbuement",
+		"key": "imbue:unholy:tech",
+		"label": "Unholy (Technique)",
+		"itemPredicate": [
+			"item:type:weapon"
+		],
+		"monsterPredicate": [
+            {
+                "or": [
+                    "self:trait:unholy",
+                    {
+                        "or": [
+                            {
+                                "and": [
+                                    "item:type:action",
+									{"or": [
+										"item:damage:type:unholy",
+										"item:trait:unholy"
+										]
+									}
+                                ]
+                            },
+                            {
+                                "and": [
+                                    "item:type:spell",
+                                    {"or": [
+										"item:damage:type:unholy",
+										"item:trait:unholy"
+										]
+									}
+                                ]
+                            }
+                        ]
+                    }
+                ]
+			}
+		],
+		"header": {
+			"description": "This imbuement has not been implemented in the Monster Parts Module yet, so you'll have to apply the effects manually. Ask your GM for access to @UUID[Compendium.battlezoo-bestiary-es-pf2e.journals.fdIszM08XRK0s42e.JournalEntryPage.lWDVu4i8zChyqQaT]{Weapon Imbued Property @ 3. Monster Parts}",
+			"labels": []
+		},
+		"effects": []
+	},
+	{
+		"type": "imbuement",
+		"key": "imbue:ice:might",
+		"label": "Ice (Might)",
+		"itemPredicate": [
+			"item:type:weapon"
+		],
+		"monsterPredicate": [
+            {
+                "or": [
+                    "self:trait:cold",
+                    {
+                        "or": [
+                            {
+                                "and": [
+                                    "item:type:action",
+									{"or": [
+										"item:damage:type:cold",
+										"item:trait:cold"
+										]
+									}
+                                ]
+                            },
+                            {
+                                "and": [
+                                    "item:type:spell",
+                                    {"or": [
+										"item:damage:type:cold",
+										"item:trait:cold"
+										]
+									}
+                                ]
+                            }
+                        ]
+                    }
+                ]
+			}
+		],
+		"header": {
+			"description": "This imbuement has not been implemented in the Monster Parts Module yet, so you'll have to apply the effects manually. Ask your GM for access to @UUID[Compendium.battlezoo-bestiary-es-pf2e.journals.fdIszM08XRK0s42e.JournalEntryPage.lWDVu4i8zChyqQaT]{Weapon Imbued Property @ 3. Monster Parts}",
+			"labels": []
+		},
+		"effects": []
+	},
+	{
+		"type": "imbuement",
+		"key": "imbue:ice:magic",
+		"label": "Ice (Magic)",
+		"itemPredicate": [
+			"item:type:weapon"
+		],
+		"monsterPredicate": [
+            {
+                "or": [
+                    "self:trait:cold",
+                    {
+                        "or": [
+                            {
+                                "and": [
+                                    "item:type:action",
+									{"or": [
+										"item:damage:type:cold",
+										"item:trait:cold"
+										]
+									}
+                                ]
+                            },
+                            {
+                                "and": [
+                                    "item:type:spell",
+                                    {"or": [
+										"item:damage:type:cold",
+										"item:trait:cold"
+										]
+									}
+                                ]
+                            }
+                        ]
+                    }
+                ]
+			}
+		],
+		"header": {
+			"description": "This imbuement has not been implemented in the Monster Parts Module yet, so you'll have to apply the effects manually. Ask your GM for access to @UUID[Compendium.battlezoo-bestiary-es-pf2e.journals.fdIszM08XRK0s42e.JournalEntryPage.lWDVu4i8zChyqQaT]{Weapon Imbued Property @ 3. Monster Parts}",
+			"labels": []
+		},
+		"effects": []
+	},
+	{
+		"type": "imbuement",
+		"key": "imbue:ice:tech",
+		"label": "Ice (Technique)",
+		"itemPredicate": [
+			"item:type:weapon"
+		],
+		"monsterPredicate": [
+            {
+                "or": [
+                    "self:trait:cold",
+                    {
+                        "or": [
+                            {
+                                "and": [
+                                    "item:type:action",
+									{"or": [
+										"item:damage:type:cold",
+										"item:trait:cold"
+										]
+									}
+                                ]
+                            },
+                            {
+                                "and": [
+                                    "item:type:spell",
+                                    {"or": [
+										"item:damage:type:cold",
+										"item:trait:cold"
+										]
+									}
+                                ]
+                            }
+                        ]
+                    }
+                ]
+			}
+		],
+		"header": {
+			"description": "This imbuement has not been implemented in the Monster Parts Module yet, so you'll have to apply the effects manually. Ask your GM for access to @UUID[Compendium.battlezoo-bestiary-es-pf2e.journals.fdIszM08XRK0s42e.JournalEntryPage.lWDVu4i8zChyqQaT]{Weapon Imbued Property @ 3. Monster Parts}",
+			"labels": []
+		},
+		"effects": []
+	},
+	{
+		"type": "imbuement",
+		"key": "imbue:light:might",
+		"label": "Light (Might)",
+		"itemPredicate": [
+			"item:type:weapon"
+		],
+		"monsterPredicate": [
+            {
+                "or": [
+                    "self:trait:light",
+                    {
+                        "or": [
+                            {
+                                "and": [
+                                    "item:type:action",
+									{"or": [
+										"item:damage:type:light",
+										"item:trait:light"
+										]
+									}
+                                ]
+                            },
+                            {
+                                "and": [
+                                    "item:type:spell",
+                                    {"or": [
+										"item:damage:type:light",
+										"item:trait:light"
+										]
+									}
+                                ]
+                            }
+                        ]
+                    }
+                ]
+			}
+		],
+		"header": {
+			"description": "This imbuement has not been implemented in the Monster Parts Module yet, so you'll have to apply the effects manually. Ask your GM for access to @UUID[Compendium.battlezoo-bestiary-es-pf2e.journals.fdIszM08XRK0s42e.JournalEntryPage.lWDVu4i8zChyqQaT]{Weapon Imbued Property @ 3. Monster Parts}",
+			"labels": []
+		},
+		"effects": []
+	},
+	{
+		"type": "imbuement",
+		"key": "imbue:light:magic",
+		"label": "Light (Magic)",
+		"itemPredicate": [
+			"item:type:weapon"
+		],
+		"monsterPredicate": [
+            {
+                "or": [
+                    "self:trait:light",
+                    {
+                        "or": [
+                            {
+                                "and": [
+                                    "item:type:action",
+									{"or": [
+										"item:damage:type:light",
+										"item:trait:light"
+										]
+									}
+                                ]
+                            },
+                            {
+                                "and": [
+                                    "item:type:spell",
+                                    {"or": [
+										"item:damage:type:light",
+										"item:trait:light"
+										]
+									}
+                                ]
+                            }
+                        ]
+                    }
+                ]
+			}
+		],
+		"header": {
+			"description": "This imbuement has not been implemented in the Monster Parts Module yet, so you'll have to apply the effects manually. Ask your GM for access to @UUID[Compendium.battlezoo-bestiary-es-pf2e.journals.fdIszM08XRK0s42e.JournalEntryPage.lWDVu4i8zChyqQaT]{Weapon Imbued Property @ 3. Monster Parts}",
+			"labels": []
+		},
+		"effects": []
+	},
+	{
+		"type": "imbuement",
+		"key": "imbue:light:tech",
+		"label": "Light (Technique)",
+		"itemPredicate": [
+			"item:type:weapon"
+		],
+		"monsterPredicate": [
+            {
+                "or": [
+                    "self:trait:light",
+                    {
+                        "or": [
+                            {
+                                "and": [
+                                    "item:type:action",
+									{"or": [
+										"item:damage:type:light",
+										"item:trait:light"
+										]
+									}
+                                ]
+                            },
+                            {
+                                "and": [
+                                    "item:type:spell",
+                                    {"or": [
+										"item:damage:type:light",
+										"item:trait:light"
+										]
+									}
+                                ]
+                            }
+                        ]
+                    }
+                ]
+			}
+		],
+		"header": {
+			"description": "This imbuement has not been implemented in the Monster Parts Module yet, so you'll have to apply the effects manually. Ask your GM for access to @UUID[Compendium.battlezoo-bestiary-es-pf2e.journals.fdIszM08XRK0s42e.JournalEntryPage.lWDVu4i8zChyqQaT]{Weapon Imbued Property @ 3. Monster Parts}",
+			"labels": []
+		},
+		"effects": []
+	},
+	{
+		"type": "imbuement",
+		"key": "imbue:light:might",
+		"label": "Light (Might)",
+		"itemPredicate": [
+			"item:type:weapon"
+		],
+		"monsterPredicate": [
+            {
+                "or": [
+                    "self:trait:holy",
+                    {
+                        "or": [
+                            {
+                                "and": [
+                                    "item:type:action",
+									{"or": [
+										"item:damage:type:light",
+										"item:trait:light"
+										]
+									}
+                                ]
+                            },
+                            {
+                                "and": [
+                                    "item:type:spell",
+                                    {"or": [
+										"item:damage:type:light",
+										"item:trait:light"
+										]
+									}
+                                ]
+                            }
+                        ]
+                    }
+                ]
+			}
+		],
+		"header": {
+			"description": "This imbuement has not been implemented in the Monster Parts Module yet, so you'll have to apply the effects manually. Ask your GM for access to @UUID[Compendium.battlezoo-bestiary-es-pf2e.journals.fdIszM08XRK0s42e.JournalEntryPage.lWDVu4i8zChyqQaT]{Weapon Imbued Property @ 3. Monster Parts}",
+			"labels": []
+		},
+		"effects": []
+	},
+	{
+		"type": "imbuement",
+		"key": "imbue:earth:might",
+		"label": "Earth (Might)",
+		"itemPredicate": [
+			"item:type:weapon"
+		],
+		"monsterPredicate": [
+            {
+                "or": [
+                    "self:trait:earth",
+                    {
+                        "or": [
+                            {
+                                "and": [
+                                    "item:type:action",
+									{"or": [
+										"item:damage:type:earth",
+										"item:trait:earth"
+										]
+									}
+                                ]
+                            },
+                            {
+                                "and": [
+                                    "item:type:spell",
+                                    {"or": [
+										"item:damage:type:earth",
+										"item:trait:earth"
+										]
+									}
+                                ]
+                            }
+                        ]
+                    }
+                ]
+			}
+		],
+		"header": {
+			"description": "This imbuement has not been implemented in the Monster Parts Module yet, so you'll have to apply the effects manually. Ask your GM for access to @UUID[Compendium.battlezoo-bestiary-es-pf2e.journals.fdIszM08XRK0s42e.JournalEntryPage.lWDVu4i8zChyqQaT]{Weapon Imbued Property @ 3. Monster Parts}",
+			"labels": []
+		},
+		"effects": []
+	},
+	{
+		"type": "imbuement",
+		"key": "imbue:earth:magic",
+		"label": "Earth (Magic)",
+		"itemPredicate": [
+			"item:type:weapon"
+		],
+		"monsterPredicate": [
+            {
+                "or": [
+                    "self:trait:earth",
+                    {
+                        "or": [
+                            {
+                                "and": [
+                                    "item:type:action",
+									{"or": [
+										"item:damage:type:earth",
+										"item:trait:earth"
+										]
+									}
+                                ]
+                            },
+                            {
+                                "and": [
+                                    "item:type:spell",
+                                    {"or": [
+										"item:damage:type:earth",
+										"item:trait:earth"
+										]
+									}
+                                ]
+                            }
+                        ]
+                    }
+                ]
+			}
+		],
+		"header": {
+			"description": "This imbuement has not been implemented in the Monster Parts Module yet, so you'll have to apply the effects manually. Ask your GM for access to @UUID[Compendium.battlezoo-bestiary-es-pf2e.journals.fdIszM08XRK0s42e.JournalEntryPage.lWDVu4i8zChyqQaT]{Weapon Imbued Property @ 3. Monster Parts}",
+			"labels": []
+		},
+		"effects": []
+	},
+	{
+		"type": "imbuement",
+		"key": "imbue:earth:tech",
+		"label": "Earth (Technique)",
+		"itemPredicate": [
+			"item:type:weapon"
+		],
+		"monsterPredicate": [
+            {
+                "or": [
+                    "self:trait:earth",
+                    {
+                        "or": [
+                            {
+                                "and": [
+                                    "item:type:action",
+									{"or": [
+										"item:damage:type:earth",
+										"item:trait:earth"
+										]
+									}
+                                ]
+                            },
+                            {
+                                "and": [
+                                    "item:type:spell",
+                                    {"or": [
+										"item:damage:type:earth",
+										"item:trait:earth"
+										]
+									}
+                                ]
+                            }
+                        ]
+                    }
+                ]
+			}
+		],
+		"header": {
+			"description": "This imbuement has not been implemented in the Monster Parts Module yet, so you'll have to apply the effects manually. Ask your GM for access to @UUID[Compendium.battlezoo-bestiary-es-pf2e.journals.fdIszM08XRK0s42e.JournalEntryPage.lWDVu4i8zChyqQaT]{Weapon Imbued Property @ 3. Monster Parts}",
+			"labels": []
+		},
+		"effects": []
+	},
+	{
+		"type": "imbuement",
+		"key": "imbue:metal:might",
+		"label": "Metal (Might)",
+		"itemPredicate": [
+			"item:type:weapon"
+		],
+		"monsterPredicate": [
+            {
+                "or": [
+                    "self:trait:metal",
+                    {
+                        "or": [
+                            {
+                                "and": [
+                                    "item:type:action",
+									{"or": [
+										"item:damage:type:metal",
+										"item:trait:metal"
+										]
+									}
+                                ]
+                            },
+                            {
+                                "and": [
+                                    "item:type:spell",
+                                    {"or": [
+										"item:damage:type:metal",
+										"item:trait:metal"
+										]
+									}
+                                ]
+                            }
+                        ]
+                    }
+                ]
+			}
+		],
+		"header": {
+			"description": "This imbuement has not been implemented in the Monster Parts Module yet, so you'll have to apply the effects manually. Ask your GM for access to @UUID[Compendium.battlezoo-bestiary-es-pf2e.journals.fdIszM08XRK0s42e.JournalEntryPage.lWDVu4i8zChyqQaT]{Weapon Imbued Property @ 3. Monster Parts}",
+			"labels": []
+		},
+		"effects": []
+	},
+	{
+		"type": "imbuement",
+		"key": "imbue:metal:magic",
+		"label": "Metal (Magic)",
+		"itemPredicate": [
+			"item:type:weapon"
+		],
+		"monsterPredicate": [
+            {
+                "or": [
+                    "self:trait:metal",
+                    {
+                        "or": [
+                            {
+                                "and": [
+                                    "item:type:action",
+									{"or": [
+										"item:damage:type:metal",
+										"item:trait:metal"
+										]
+									}
+                                ]
+                            },
+                            {
+                                "and": [
+                                    "item:type:spell",
+                                    {"or": [
+										"item:damage:type:metal",
+										"item:trait:metal"
+										]
+									}
+                                ]
+                            }
+                        ]
+                    }
+                ]
+			}
+		],
+		"header": {
+			"description": "This imbuement has not been implemented in the Monster Parts Module yet, so you'll have to apply the effects manually. Ask your GM for access to @UUID[Compendium.battlezoo-bestiary-es-pf2e.journals.fdIszM08XRK0s42e.JournalEntryPage.lWDVu4i8zChyqQaT]{Weapon Imbued Property @ 3. Monster Parts}",
+			"labels": []
+		},
+		"effects": []
+	},
+	{
+		"type": "imbuement",
+		"key": "imbue:metal:tech",
+		"label": "Metal (Technique)",
+		"itemPredicate": [
+			"item:type:weapon"
+		],
+		"monsterPredicate": [
+            {
+                "or": [
+                    "self:trait:metal",
+                    {
+                        "or": [
+                            {
+                                "and": [
+                                    "item:type:action",
+									{"or": [
+										"item:damage:type:metal",
+										"item:trait:metal"
+										]
+									}
+                                ]
+                            },
+                            {
+                                "and": [
+                                    "item:type:spell",
+                                    {"or": [
+										"item:damage:type:metal",
+										"item:trait:metal"
+										]
+									}
+                                ]
+                            }
+                        ]
+                    }
+                ]
+			}
+		],
+		"header": {
+			"description": "This imbuement has not been implemented in the Monster Parts Module yet, so you'll have to apply the effects manually. Ask your GM for access to @UUID[Compendium.battlezoo-bestiary-es-pf2e.journals.fdIszM08XRK0s42e.JournalEntryPage.lWDVu4i8zChyqQaT]{Weapon Imbued Property @ 3. Monster Parts}",
+			"labels": []
+		},
+		"effects": []
+	},
+	{
+		"type": "imbuement",
+		"key": "imbue:mind:might",
+		"label": "Mind (Might)",
+		"itemPredicate": [
+			"item:type:weapon"
+		],
+		"monsterPredicate": [
+            {
+                "or": [
+                    "self:trait:astral",
+					"self:trait:mental",
+                    {
+                        "or": [
+                            {
+                                "and": [
+                                    "item:type:action",
+									{"or": [
+										"item:damage:type:astral",
+										"item:damage:type:mental",
+										"item:trait:astral",
+										"item:trait:mental"
+										]
+									}
+                                ]
+                            },
+                            {
+                                "and": [
+                                    "item:type:spell",
+                                    {"or": [
+										"item:damage:type:astral",
+										"item:damage:type:mental",
+										"item:trait:astral",
+										"item:trait:mental"
+										]
+									}
+                                ]
+                            }
+                        ]
+                    }
+                ]
+			}
+		],
+		"header": {
+			"description": "This imbuement has not been implemented in the Monster Parts Module yet, so you'll have to apply the effects manually. Ask your GM for access to @UUID[Compendium.battlezoo-bestiary-es-pf2e.journals.fdIszM08XRK0s42e.JournalEntryPage.lWDVu4i8zChyqQaT]{Weapon Imbued Property @ 3. Monster Parts}",
+			"labels": []
+		},
+		"effects": []
+	},
+	{
+		"type": "imbuement",
+		"key": "imbue:mind:magic",
+		"label": "Mind (Magic)",
+		"itemPredicate": [
+			"item:type:weapon"
+		],
+		"monsterPredicate": [
+            {
+                "or": [
+                    "self:trait:astral",
+					"self:trait:mental",
+                    {
+                        "or": [
+                            {
+                                "and": [
+                                    "item:type:action",
+									{"or": [
+										"item:damage:type:astral",
+										"item:damage:type:mental",
+										"item:trait:astral",
+										"item:trait:mental"
+										]
+									}
+                                ]
+                            },
+                            {
+                                "and": [
+                                    "item:type:spell",
+                                    {"or": [
+										"item:damage:type:astral",
+										"item:damage:type:mental",
+										"item:trait:astral",
+										"item:trait:mental"
+										]
+									}
+                                ]
+                            }
+                        ]
+                    }
+                ]
+			}
+		],
+		"header": {
+			"description": "This imbuement has not been implemented in the Monster Parts Module yet, so you'll have to apply the effects manually. Ask your GM for access to @UUID[Compendium.battlezoo-bestiary-es-pf2e.journals.fdIszM08XRK0s42e.JournalEntryPage.lWDVu4i8zChyqQaT]{Weapon Imbued Property @ 3. Monster Parts}",
+			"labels": []
+		},
+		"effects": []
+	},
+	{
+		"type": "imbuement",
+		"key": "imbue:mind:tech",
+		"label": "Mind (Technique)",
+		"itemPredicate": [
+			"item:type:weapon"
+		],
+		"monsterPredicate": [
+            {
+                "or": [
+                    "self:trait:astral",
+					"self:trait:mental",
+                    {
+                        "or": [
+                            {
+                                "and": [
+                                    "item:type:action",
+									{"or": [
+										"item:damage:type:astral",
+										"item:damage:type:mental",
+										"item:trait:astral",
+										"item:trait:mental"
+										]
+									}
+                                ]
+                            },
+                            {
+                                "and": [
+                                    "item:type:spell",
+                                    {"or": [
+										"item:damage:type:astral",
+										"item:damage:type:mental",
+										"item:trait:astral",
+										"item:trait:mental"
+										]
+									}
+                                ]
+                            }
+                        ]
+                    }
+                ]
+			}
+		],
+		"header": {
+			"description": "This imbuement has not been implemented in the Monster Parts Module yet, so you'll have to apply the effects manually. Ask your GM for access to @UUID[Compendium.battlezoo-bestiary-es-pf2e.journals.fdIszM08XRK0s42e.JournalEntryPage.lWDVu4i8zChyqQaT]{Weapon Imbued Property @ 3. Monster Parts}",
+			"labels": []
+		},
+		"effects": []
+	},
+	{
+		"type": "imbuement",
+		"key": "imbue:music:might",
+		"label": "Music (Might)",
+		"itemPredicate": [
+			"item:type:weapon"
+		],
+		"monsterPredicate": [
+            {
+                "or": [
+                    "self:trait:sonic",
+                    {
+                        "or": [
+                            {
+                                "and": [
+                                    "item:type:action",
+									{"or": [
+										"item:damage:type:sonic",
+										"item:trait:sonic"
+										]
+									}
+                                ]
+                            },
+                            {
+                                "and": [
+                                    "item:type:spell",
+                                    {"or": [
+										"item:damage:type:sonic",
+										"item:trait:sonic"
+										]
+									}
+                                ]
+                            }
+                        ]
+                    }
+                ]
+			}
+		],
+		"header": {
+			"description": "This imbuement has not been implemented in the Monster Parts Module yet, so you'll have to apply the effects manually. Ask your GM for access to @UUID[Compendium.battlezoo-bestiary-es-pf2e.journals.fdIszM08XRK0s42e.JournalEntryPage.lWDVu4i8zChyqQaT]{Weapon Imbued Property @ 3. Monster Parts}",
+			"labels": []
+		},
+		"effects": []
+	},
+	{
+		"type": "imbuement",
+		"key": "imbue:music:magic",
+		"label": "Music (Magic)",
+		"itemPredicate": [
+			"item:type:weapon"
+		],
+		"monsterPredicate": [
+            {
+                "or": [
+                    "self:trait:sonic",
+                    {
+                        "or": [
+                            {
+                                "and": [
+                                    "item:type:action",
+									{"or": [
+										"item:damage:type:sonic",
+										"item:trait:sonic"
+										]
+									}
+                                ]
+                            },
+                            {
+                                "and": [
+                                    "item:type:spell",
+                                    {"or": [
+										"item:damage:type:sonic",
+										"item:trait:sonic"
+										]
+									}
+                                ]
+                            }
+                        ]
+                    }
+                ]
+			}
+		],
+		"header": {
+			"description": "This imbuement has not been implemented in the Monster Parts Module yet, so you'll have to apply the effects manually. Ask your GM for access to @UUID[Compendium.battlezoo-bestiary-es-pf2e.journals.fdIszM08XRK0s42e.JournalEntryPage.lWDVu4i8zChyqQaT]{Weapon Imbued Property @ 3. Monster Parts}",
+			"labels": []
+		},
+		"effects": []
+	},
+	{
+		"type": "imbuement",
+		"key": "imbue:music:tech",
+		"label": "Music (Technique)",
+		"itemPredicate": [
+			"item:type:weapon"
+		],
+		"monsterPredicate": [
+            {
+                "or": [
+                    "self:trait:sonic",
+                    {
+                        "or": [
+                            {
+                                "and": [
+                                    "item:type:action",
+									{"or": [
+										"item:damage:type:sonic",
+										"item:trait:sonic"
+										]
+									}
+                                ]
+                            },
+                            {
+                                "and": [
+                                    "item:type:spell",
+                                    {"or": [
+										"item:damage:type:sonic",
+										"item:trait:sonic"
+										]
+									}
+                                ]
+                            }
+                        ]
+                    }
+                ]
+			}
+		],
+		"header": {
+			"description": "This imbuement has not been implemented in the Monster Parts Module yet, so you'll have to apply the effects manually. Ask your GM for access to @UUID[Compendium.battlezoo-bestiary-es-pf2e.journals.fdIszM08XRK0s42e.JournalEntryPage.lWDVu4i8zChyqQaT]{Weapon Imbued Property @ 3. Monster Parts}",
+			"labels": []
+		},
+		"effects": []
+	},
+	{
+		"type": "imbuement",
+		"key": "imbue:space:might",
+		"label": "Space (Might)",
+		"itemPredicate": [
+			"item:type:weapon"
+		],
+		"monsterPredicate": [
+            {
+                "or": [
+                    "self:trait:teleportation",
+                    {
+                        "or": [
+                            {
+                                "and": [
+                                    "item:type:action",
+									{"or": [
+										"item:damage:type:teleportation",
+										"item:trait:teleportation"
+										]
+									}
+                                ]
+                            },
+                            {
+                                "and": [
+                                    "item:type:spell",
+                                    {"or": [
+										"item:damage:type:teleportation",
+										"item:trait:teleportation"
+										]
+									}
+                                ]
+                            }
+                        ]
+                    }
+                ]
+			}
+		],
+		"header": {
+			"description": "This imbuement has not been implemented in the Monster Parts Module yet, so you'll have to apply the effects manually. Ask your GM for access to @UUID[Compendium.battlezoo-bestiary-es-pf2e.journals.fdIszM08XRK0s42e.JournalEntryPage.lWDVu4i8zChyqQaT]{Weapon Imbued Property @ 3. Monster Parts}",
+			"labels": []
+		},
+		"effects": []
+	},
+	{
+		"type": "imbuement",
+		"key": "imbue:space:magic",
+		"label": "Space (Magic)",
+		"itemPredicate": [
+			"item:type:weapon"
+		],
+		"monsterPredicate": [
+            {
+                "or": [
+                    "self:trait:teleportation",
+                    {
+                        "or": [
+                            {
+                                "and": [
+                                    "item:type:action",
+									{"or": [
+										"item:damage:type:teleportation",
+										"item:trait:teleportation"
+										]
+									}
+                                ]
+                            },
+                            {
+                                "and": [
+                                    "item:type:spell",
+                                    {"or": [
+										"item:damage:type:teleportation",
+										"item:trait:teleportation"
+										]
+									}
+                                ]
+                            }
+                        ]
+                    }
+                ]
+			}
+		],
+		"header": {
+			"description": "This imbuement has not been implemented in the Monster Parts Module yet, so you'll have to apply the effects manually. Ask your GM for access to @UUID[Compendium.battlezoo-bestiary-es-pf2e.journals.fdIszM08XRK0s42e.JournalEntryPage.lWDVu4i8zChyqQaT]{Weapon Imbued Property @ 3. Monster Parts}",
+			"labels": []
+		},
+		"effects": []
+	},
+	{
+		"type": "imbuement",
+		"key": "imbue:space:tech",
+		"label": "Space (Technique)",
+		"itemPredicate": [
+			"item:type:weapon"
+		],
+		"monsterPredicate": [
+            {
+                "or": [
+                    "self:trait:teleportation",
+                    {
+                        "or": [
+                            {
+                                "and": [
+                                    "item:type:action",
+									{"or": [
+										"item:damage:type:teleportation",
+										"item:trait:teleportation"
+										]
+									}
+                                ]
+                            },
+                            {
+                                "and": [
+                                    "item:type:spell",
+                                    {"or": [
+										"item:damage:type:teleportation",
+										"item:trait:teleportation"
+										]
+									}
+                                ]
+                            }
+                        ]
+                    }
+                ]
+			}
+		],
+		"header": {
+			"description": "This imbuement has not been implemented in the Monster Parts Module yet, so you'll have to apply the effects manually. Ask your GM for access to @UUID[Compendium.battlezoo-bestiary-es-pf2e.journals.fdIszM08XRK0s42e.JournalEntryPage.lWDVu4i8zChyqQaT]{Weapon Imbued Property @ 3. Monster Parts}",
+			"labels": []
+		},
+		"effects": []
+	},
+	{
+		"type": "imbuement",
+		"key": "imbue:spirit:might",
+		"label": "Spirit (Might)",
+		"itemPredicate": [
+			"item:type:weapon"
+		],
+		"monsterPredicate": [
+            {
+                "or": [
+                    "self:trait:spirit",
+                    {
+                        "or": [
+                            {
+                                "and": [
+                                    "item:type:action",
+									{"or": [
+										"item:damage:type:spirit",
+										"item:trait:spirit"
+										]
+									}
+                                ]
+                            },
+                            {
+                                "and": [
+                                    "item:type:spell",
+                                    {"or": [
+										"item:damage:type:spirit",
+										"item:trait:spirit"
+										]
+									}
+                                ]
+                            }
+                        ]
+                    }
+                ]
+			}
+		],
+		"header": {
+			"description": "This imbuement has not been implemented in the Monster Parts Module yet, so you'll have to apply the effects manually. Ask your GM for access to @UUID[Compendium.battlezoo-bestiary-es-pf2e.journals.fdIszM08XRK0s42e.JournalEntryPage.lWDVu4i8zChyqQaT]{Weapon Imbued Property @ 3. Monster Parts}",
+			"labels": []
+		},
+		"effects": []
+	},
+	{
+		"type": "imbuement",
+		"key": "imbue:spirit:magic",
+		"label": "Spirit (Magic)",
+		"itemPredicate": [
+			"item:type:weapon"
+		],
+		"monsterPredicate": [
+            {
+                "or": [
+                    "self:trait:spirit",
+                    {
+                        "or": [
+                            {
+                                "and": [
+                                    "item:type:action",
+									{"or": [
+										"item:damage:type:spirit",
+										"item:trait:spirit"
+										]
+									}
+                                ]
+                            },
+                            {
+                                "and": [
+                                    "item:type:spell",
+                                    {"or": [
+										"item:damage:type:spirit",
+										"item:trait:spirit"
+										]
+									}
+                                ]
+                            }
+                        ]
+                    }
+                ]
+			}
+		],
+		"header": {
+			"description": "This imbuement has not been implemented in the Monster Parts Module yet, so you'll have to apply the effects manually. Ask your GM for access to @UUID[Compendium.battlezoo-bestiary-es-pf2e.journals.fdIszM08XRK0s42e.JournalEntryPage.lWDVu4i8zChyqQaT]{Weapon Imbued Property @ 3. Monster Parts}",
+			"labels": []
+		},
+		"effects": []
+	},
+	{
+		"type": "imbuement",
+		"key": "imbue:spirit:tech",
+		"label": "Spirit (Technique)",
+		"itemPredicate": [
+			"item:type:weapon"
+		],
+		"monsterPredicate": [
+            {
+                "or": [
+                    "self:trait:spirit",
+                    {
+                        "or": [
+                            {
+                                "and": [
+                                    "item:type:action",
+									{"or": [
+										"item:damage:type:spirit",
+										"item:trait:spirit"
+										]
+									}
+                                ]
+                            },
+                            {
+                                "and": [
+                                    "item:type:spell",
+                                    {"or": [
+										"item:damage:type:spirit",
+										"item:trait:spirit"
+										]
+									}
+                                ]
+                            }
+                        ]
+                    }
+                ]
+			}
+		],
+		"header": {
+			"description": "This imbuement has not been implemented in the Monster Parts Module yet, so you'll have to apply the effects manually. Ask your GM for access to @UUID[Compendium.battlezoo-bestiary-es-pf2e.journals.fdIszM08XRK0s42e.JournalEntryPage.lWDVu4i8zChyqQaT]{Weapon Imbued Property @ 3. Monster Parts}",
+			"labels": []
+		},
+		"effects": []
+	},
+	{
+		"type": "imbuement",
+		"key": "imbue:time:might",
+		"label": "Time (Might)",
+		"itemPredicate": [
+			"item:type:weapon"
+		],
+		"monsterPredicate": [
+            {
+                "or": [
+                    "self:trait:time",
+                    {
+                        "or": [
+                            {
+                                "and": [
+                                    "item:type:action",
+									{"or": [
+										"item:damage:type:time",
+										"item:trait:time"
+										]
+									}
+                                ]
+                            },
+                            {
+                                "and": [
+                                    "item:type:spell",
+                                    {"or": [
+										"item:damage:type:time",
+										"item:trait:time"
+										]
+									}
+                                ]
+                            }
+                        ]
+                    }
+                ]
+			}
+		],
+		"header": {
+			"description": "This imbuement has not been implemented in the Monster Parts Module yet, so you'll have to apply the effects manually. Ask your GM for access to @UUID[Compendium.battlezoo-bestiary-es-pf2e.journals.fdIszM08XRK0s42e.JournalEntryPage.lWDVu4i8zChyqQaT]{Weapon Imbued Property @ 3. Monster Parts}",
+			"labels": []
+		},
+		"effects": []
+	},
+	{
+		"type": "imbuement",
+		"key": "imbue:time:magic",
+		"label": "Time (Magic)",
+		"itemPredicate": [
+			"item:type:weapon"
+		],
+		"monsterPredicate": [
+            {
+                "or": [
+                    "self:trait:time",
+                    {
+                        "or": [
+                            {
+                                "and": [
+                                    "item:type:action",
+									{"or": [
+										"item:damage:type:time",
+										"item:trait:time"
+										]
+									}
+                                ]
+                            },
+                            {
+                                "and": [
+                                    "item:type:spell",
+                                    {"or": [
+										"item:damage:type:time",
+										"item:trait:time"
+										]
+									}
+                                ]
+                            }
+                        ]
+                    }
+                ]
+			}
+		],
+		"header": {
+			"description": "This imbuement has not been implemented in the Monster Parts Module yet, so you'll have to apply the effects manually. Ask your GM for access to @UUID[Compendium.battlezoo-bestiary-es-pf2e.journals.fdIszM08XRK0s42e.JournalEntryPage.lWDVu4i8zChyqQaT]{Weapon Imbued Property @ 3. Monster Parts}",
+			"labels": []
+		},
+		"effects": []
+	},
+	{
+		"type": "imbuement",
+		"key": "imbue:time:tech",
+		"label": "Time (Technique)",
+		"itemPredicate": [
+			"item:type:weapon"
+		],
+		"monsterPredicate": [
+            {
+                "or": [
+                    "self:trait:time",
+                    {
+                        "or": [
+                            {
+                                "and": [
+                                    "item:type:action",
+									{"or": [
+										"item:damage:type:time",
+										"item:trait:time"
+										]
+									}
+                                ]
+                            },
+                            {
+                                "and": [
+                                    "item:type:spell",
+                                    {"or": [
+										"item:damage:type:time",
+										"item:trait:time"
+										]
+									}
+                                ]
+                            }
+                        ]
+                    }
+                ]
+			}
+		],
+		"header": {
+			"description": "This imbuement has not been implemented in the Monster Parts Module yet, so you'll have to apply the effects manually. Ask your GM for access to @UUID[Compendium.battlezoo-bestiary-es-pf2e.journals.fdIszM08XRK0s42e.JournalEntryPage.lWDVu4i8zChyqQaT]{Weapon Imbued Property @ 3. Monster Parts}",
+			"labels": []
+		},
+		"effects": []
+	},
+	{
+		"type": "imbuement",
+		"key": "imbue:water:might",
+		"label": "Water (Might)",
+		"itemPredicate": [
+			"item:type:weapon"
+		],
+		"monsterPredicate": [
+            {
+                "or": [
+                    "self:trait:water",
+                    {
+                        "or": [
+                            {
+                                "and": [
+                                    "item:type:action",
+									{"or": [
+										"item:damage:type:water",
+										"item:trait:water"
+										]
+									}
+                                ]
+                            },
+                            {
+                                "and": [
+                                    "item:type:spell",
+                                    {"or": [
+										"item:damage:type:water",
+										"item:trait:water"
+										]
+									}
+                                ]
+                            }
+                        ]
+                    }
+                ]
+			}
+		],
+		"header": {
+			"description": "This imbuement has not been implemented in the Monster Parts Module yet, so you'll have to apply the effects manually. Ask your GM for access to @UUID[Compendium.battlezoo-bestiary-es-pf2e.journals.fdIszM08XRK0s42e.JournalEntryPage.lWDVu4i8zChyqQaT]{Weapon Imbued Property @ 3. Monster Parts}",
+			"labels": []
+		},
+		"effects": []
+	},
+	{
+		"type": "imbuement",
+		"key": "imbue:water:magic",
+		"label": "Water (Magic)",
+		"itemPredicate": [
+			"item:type:weapon"
+		],
+		"monsterPredicate": [
+            {
+                "or": [
+                    "self:trait:water",
+                    {
+                        "or": [
+                            {
+                                "and": [
+                                    "item:type:action",
+									{"or": [
+										"item:damage:type:water",
+										"item:trait:water"
+										]
+									}
+                                ]
+                            },
+                            {
+                                "and": [
+                                    "item:type:spell",
+                                    {"or": [
+										"item:damage:type:water",
+										"item:trait:water"
+										]
+									}
+                                ]
+                            }
+                        ]
+                    }
+                ]
+			}
+		],
+		"header": {
+			"description": "This imbuement has not been implemented in the Monster Parts Module yet, so you'll have to apply the effects manually. Ask your GM for access to @UUID[Compendium.battlezoo-bestiary-es-pf2e.journals.fdIszM08XRK0s42e.JournalEntryPage.lWDVu4i8zChyqQaT]{Weapon Imbued Property @ 3. Monster Parts}",
+			"labels": []
+		},
+		"effects": []
+	},
+	{
+		"type": "imbuement",
+		"key": "imbue:water:tech",
+		"label": "Water (Technique)",
+		"itemPredicate": [
+			"item:type:weapon"
+		],
+		"monsterPredicate": [
+            {
+                "or": [
+                    "self:trait:water",
+                    {
+                        "or": [
+                            {
+                                "and": [
+                                    "item:type:action",
+									{"or": [
+										"item:damage:type:water",
+										"item:trait:water"
+										]
+									}
+                                ]
+                            },
+                            {
+                                "and": [
+                                    "item:type:spell",
+                                    {"or": [
+										"item:damage:type:water",
+										"item:trait:water"
+										]
+									}
+                                ]
+                            }
+                        ]
+                    }
+                ]
+			}
+		],
+		"header": {
+			"description": "This imbuement has not been implemented in the Monster Parts Module yet, so you'll have to apply the effects manually. Ask your GM for access to @UUID[Compendium.battlezoo-bestiary-es-pf2e.journals.fdIszM08XRK0s42e.JournalEntryPage.lWDVu4i8zChyqQaT]{Weapon Imbued Property @ 3. Monster Parts}",
+			"labels": []
+		},
+		"effects": []
+	},
+	{
+		"type": "imbuement",
+		"key": "imbue:wood:might",
+		"label": "Wood (Might)",
+		"itemPredicate": [
+			"item:type:weapon"
+		],
+		"monsterPredicate": [
+            {
+                "or": [
+                    "self:trait:wood",
+                    {
+                        "or": [
+                            {
+                                "and": [
+                                    "item:type:action",
+									{"or": [
+										"item:damage:type:wood",
+										"item:trait:wood"
+										]
+									}
+                                ]
+                            },
+                            {
+                                "and": [
+                                    "item:type:spell",
+                                    {"or": [
+										"item:damage:type:wood",
+										"item:trait:wood"
+										]
+									}
+                                ]
+                            }
+                        ]
+                    }
+                ]
+			}
+		],
+		"header": {
+			"description": "This imbuement has not been implemented in the Monster Parts Module yet, so you'll have to apply the effects manually. Ask your GM for access to @UUID[Compendium.battlezoo-bestiary-es-pf2e.journals.fdIszM08XRK0s42e.JournalEntryPage.lWDVu4i8zChyqQaT]{Weapon Imbued Property @ 3. Monster Parts}",
+			"labels": []
+		},
+		"effects": []
+	},
+	{
+		"type": "imbuement",
+		"key": "imbue:wood:magic",
+		"label": "Wood (Magic)",
+		"itemPredicate": [
+			"item:type:weapon"
+		],
+		"monsterPredicate": [
+            {
+                "or": [
+                    "self:trait:wood",
+                    {
+                        "or": [
+                            {
+                                "and": [
+                                    "item:type:action",
+									{"or": [
+										"item:damage:type:wood",
+										"item:trait:wood"
+										]
+									}
+                                ]
+                            },
+                            {
+                                "and": [
+                                    "item:type:spell",
+                                    {"or": [
+										"item:damage:type:wood",
+										"item:trait:wood"
+										]
+									}
+                                ]
+                            }
+                        ]
+                    }
+                ]
+			}
+		],
+		"header": {
+			"description": "This imbuement has not been implemented in the Monster Parts Module yet, so you'll have to apply the effects manually. Ask your GM for access to @UUID[Compendium.battlezoo-bestiary-es-pf2e.journals.fdIszM08XRK0s42e.JournalEntryPage.lWDVu4i8zChyqQaT]{Weapon Imbued Property @ 3. Monster Parts}",
+			"labels": []
+		},
+		"effects": []
+	},
+	{
+		"type": "imbuement",
+		"key": "imbue:wood:tech",
+		"label": "Wood (Technique)",
+		"itemPredicate": [
+			"item:type:weapon"
+		],
+		"monsterPredicate": [
+            {
+                "or": [
+                    "self:trait:wood",
+                    {
+                        "or": [
+                            {
+                                "and": [
+                                    "item:type:action",
+									{"or": [
+										"item:damage:type:wood",
+										"item:trait:wood"
+										]
+									}
+                                ]
+                            },
+                            {
+                                "and": [
+                                    "item:type:spell",
+                                    {"or": [
+										"item:damage:type:wood",
+										"item:trait:wood"
+										]
+									}
+                                ]
+                            }
+                        ]
+                    }
+                ]
+			}
+		],
+		"header": {
+			"description": "This imbuement has not been implemented in the Monster Parts Module yet, so you'll have to apply the effects manually. Ask your GM for access to @UUID[Compendium.battlezoo-bestiary-es-pf2e.journals.fdIszM08XRK0s42e.JournalEntryPage.lWDVu4i8zChyqQaT]{Weapon Imbued Property @ 3. Monster Parts}",
+			"labels": []
+		},
+		"effects": []
 	}
 ]

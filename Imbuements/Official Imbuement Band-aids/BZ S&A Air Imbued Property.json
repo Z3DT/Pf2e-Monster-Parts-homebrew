@@ -1,7 +1,7 @@
 [
 	{
 		"type": "imbuement",
-		"key": "imbue:air-magic",
+		"key": "imbue:air:magic",
 		"label": "Air (Magic)",
 		"itemPredicate": [
 			"item:type:weapon"
@@ -62,7 +62,7 @@
 	},
 	{
 		"type": "imbuement",
-		"key": "imbue:air-might",
+		"key": "imbue:air:might",
 		"label": "Air (Might)",
 		"itemPredicate": [
 			"item:type:weapon"
