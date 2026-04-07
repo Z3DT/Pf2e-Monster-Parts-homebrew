@@ -1,0 +1,145 @@
+[
+	{
+		"type": "imbuement",
+		"key": "imbue:elongating",
+		"label": "Elongating",
+		"itemPredicate": [
+			"item:type:weapon"
+		],
+		"monsterPredicate": [
+			"item:type:action",
+			{
+				"or": [
+					"item:trait:reach",
+					"item:trait:reach-10",
+					"item:trait:reach-15",
+					"item:trait:reach-20",
+					"item:trait:reach-25",
+					"item:trait:reach-30",
+					"item:trait:reach-40",
+					"item:trait:reach-50",
+					"item:trait:reach-60",
+					"item:trait:reach-70",
+					"item:trait:reach-80",
+					"item:trait:reach-90",
+					"item:trait:reach-100",
+					"item:trait:reach-120",
+					"item:trait:reach-200",
+					"item:trait:reach-1000"
+				]
+			}
+		],
+		"header": {
+			"description": "This imbuement has not been implemented in the Monster Parts Module yet, so you'll have to apply the effects manually. Ask your GM for access to @UUID[Compendium.battlezoo-bestiary-su-pf2e.pf2e-battlezoo-su-monster-parts.JournalEntry.JbErDkeBQUxkKo2b]{Battlezoo Bestiary Strange and Unusual - Imbued Properties}",
+			"labels": []
+		},
+		"effects": []
+	},
+	{
+		"type": "imbuement",
+		"key": "imbue:mirrored",
+		"label": "Mirrored",
+		"itemPredicate": [
+			"item:type:shield"
+		],
+		"monsterPredicate": [
+			{
+				"or": [
+					{
+						"and": [
+							"item:type:action",
+							{
+								"or": [
+									"item:golem-golem-antimagic",
+									"item:counterspell",
+									"item:sin-counterspell",
+									"item:mythic-counterspell",
+									"item:clever-counterspell",
+									"item:masters-counterspell",
+									"item:1-status-to-all-saves-vs-magic",
+									"item:2-status-to-all-saves-vs-magic",
+									"item:3-status-to-all-saves-vs-magic",
+									"item:4-status-to-all-saves-vs-magic",
+									"item:5-status-to-all-saves-vs-magic",
+									"item:trait:deflecting-physical-ranged"
+								]
+							}
+						]
+					}
+				]
+			}
+		],
+		"header": {
+			"description": "This imbuement has not been implemented in the Monster Parts Module yet, so you'll have to apply the effects manually. Ask your GM for access to @UUID[Compendium.battlezoo-bestiary-su-pf2e.pf2e-battlezoo-su-monster-parts.JournalEntry.JbErDkeBQUxkKo2b]{Battlezoo Bestiary Strange and Unusual - Imbued Properties}",
+			"labels": []
+		},
+		"effects": []
+	},
+	{
+		"type": "imbuement",
+		"key": "imbue:spiked",
+		"label": "Spiked",
+		"itemPredicate": [
+			"item:type:armor"
+		],
+		"monsterPredicate": [
+			{
+				"and": [
+					"item:type:action",
+					{
+						"or": [
+							"item:action:type:reaction",
+							"item:action:type:free",
+							{
+								"not": {
+									"or": [
+										"item:action:cost:1",
+										"item:action:cost:2",
+										"item:action:cost:3"
+									]
+								}
+							}
+						]
+					},
+					{
+						"or": [
+							"item:damage:type:slashing",
+							"item:damage:type:piercing"
+						]
+					}
+				]
+			}
+		],
+		"header": {
+			"description": "This imbuement has not been implemented in the Monster Parts Module yet, so you'll have to apply the effects manually. Ask your GM for access to @UUID[Compendium.battlezoo-bestiary-es-pf2e.journals.fdIszM08XRK0s42e.JournalEntryPage.jR1WQitzcUbbbQKR]{Armor Imbued Property @ 3. Monster Parts}",
+			"labels": []
+		},
+		"effects": []
+	},
+	{
+		"type": "imbuement",
+		"key": "imbue:throwing",
+		"label": "Throwing",
+		"itemPredicate": [
+			"item:type:weapon"
+		],
+		"monsterPredicate": [
+			{
+				"or": [
+					"item:throw-rock",
+					{
+						"and": [
+							"item:type:melee",
+							"item:ranged"
+						]
+					}
+				]
+			}
+		],
+		"header": {
+			"description": "This imbuement has not been implemented in the Monster Parts Module yet, so you'll have to apply the effects manually. Ask your GM for access to @UUID[Compendium.battlezoo-bestiary-es-pf2e.journals.fdIszM08XRK0s42e.JournalEntryPage.jR1WQitzcUbbbQKR]{Armor Imbued Property @ 3. Monster Parts}",
+			"labels": []
+		},
+		"effects": []
+	}
+]

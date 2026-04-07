@@ -1,3 +1,7 @@
+Apr 7 2026
+- Added band-aid JSON for all imbued properties from Strange and Unusual (that weren't remastered in Elemental Storm). See below update.
+- Fixed an issue where the Light (Might) property was accidentally in the ES band-aid twice
+
 Apr 6 2026
 - Added band-aid JSON for all of Elemental Storm's imbued properties. This will make them show up when generating parts from monsters and as options when imbuing for the appropriate equipment
 
