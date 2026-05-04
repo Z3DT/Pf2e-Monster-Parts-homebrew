@@ -1,0 +1,147 @@
+{
+		"type": "imbuement",
+		"key": "imbue:mind:might",
+		"label": "Mind (Might)",
+		"itemPredicate": [
+			"item:type:weapon"
+		],
+		"monsterPredicate": [
+            {
+                "or": [
+                    "self:trait:astral",
+					"self:trait:mental",
+                    {
+                        "or": [
+                            {
+                                "and": [
+                                    "item:type:action",
+									{"or": [
+										"item:damage:type:astral",
+										"item:damage:type:mental",
+										"item:trait:astral",
+										"item:trait:mental"
+										]
+									}
+                                ]
+                            },
+                            {
+                                "and": [
+                                    "item:type:spell",
+                                    {"or": [
+										"item:damage:type:astral",
+										"item:damage:type:mental",
+										"item:trait:astral",
+										"item:trait:mental"
+										]
+									}
+                                ]
+                            }
+                        ]
+                    }
+                ]
+			}
+		],
+		"header": {
+			"description": "This imbuement has not been implemented in the Monster Parts Module yet, so you'll have to apply the effects manually. Ask your GM for access to @UUID[Compendium.battlezoo-bestiary-es-pf2e.journals.fdIszM08XRK0s42e.JournalEntryPage.lWDVu4i8zChyqQaT]{Weapon Imbued Property @ 3. Monster Parts}",
+			"labels": []
+		},
+		"effects": []
+	},
+	{
+		"type": "imbuement",
+		"key": "imbue:mind:magic",
+		"label": "Mind (Magic)",
+		"itemPredicate": [
+			"item:type:weapon"
+		],
+		"monsterPredicate": [
+            {
+                "or": [
+                    "self:trait:astral",
+					"self:trait:mental",
+                    {
+                        "or": [
+                            {
+                                "and": [
+                                    "item:type:action",
+									{"or": [
+										"item:damage:type:astral",
+										"item:damage:type:mental",
+										"item:trait:astral",
+										"item:trait:mental"
+										]
+									}
+                                ]
+                            },
+                            {
+                                "and": [
+                                    "item:type:spell",
+                                    {"or": [
+										"item:damage:type:astral",
+										"item:damage:type:mental",
+										"item:trait:astral",
+										"item:trait:mental"
+										]
+									}
+                                ]
+                            }
+                        ]
+                    }
+                ]
+			}
+		],
+		"header": {
+			"description": "This imbuement has not been implemented in the Monster Parts Module yet, so you'll have to apply the effects manually. Ask your GM for access to @UUID[Compendium.battlezoo-bestiary-es-pf2e.journals.fdIszM08XRK0s42e.JournalEntryPage.lWDVu4i8zChyqQaT]{Weapon Imbued Property @ 3. Monster Parts}",
+			"labels": []
+		},
+		"effects": []
+	},
+	{
+		"type": "imbuement",
+		"key": "imbue:mind:tech",
+		"label": "Mind (Technique)",
+		"itemPredicate": [
+			"item:type:weapon"
+		],
+		"monsterPredicate": [
+            {
+                "or": [
+                    "self:trait:astral",
+					"self:trait:mental",
+                    {
+                        "or": [
+                            {
+                                "and": [
+                                    "item:type:action",
+									{"or": [
+										"item:damage:type:astral",
+										"item:damage:type:mental",
+										"item:trait:astral",
+										"item:trait:mental"
+										]
+									}
+                                ]
+                            },
+                            {
+                                "and": [
+                                    "item:type:spell",
+                                    {"or": [
+										"item:damage:type:astral",
+										"item:damage:type:mental",
+										"item:trait:astral",
+										"item:trait:mental"
+										]
+									}
+                                ]
+                            }
+                        ]
+                    }
+                ]
+			}
+		],
+		"header": {
+			"description": "This imbuement has not been implemented in the Monster Parts Module yet, so you'll have to apply the effects manually. Ask your GM for access to @UUID[Compendium.battlezoo-bestiary-es-pf2e.journals.fdIszM08XRK0s42e.JournalEntryPage.lWDVu4i8zChyqQaT]{Weapon Imbued Property @ 3. Monster Parts}",
+			"labels": []
+		},
+		"effects": []
+	},

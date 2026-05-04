@@ -1,3 +1,6 @@
+May 4 2026
+- Removed Mind and Body imbued properties into the archive. These are both now implemented in the Kromko module so their band-aid is no longer needed.
+
 Apr 7 2026
 - Added band-aid JSON for all imbued properties from Strange and Unusual (that weren't remastered in Elemental Storm). See below update.
 - Fixed an issue where the Light (Might) property was accidentally in the ES band-aid twice
