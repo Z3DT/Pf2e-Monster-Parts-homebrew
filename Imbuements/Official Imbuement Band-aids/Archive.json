@@ -145,3 +145,173 @@
 		},
 		"effects": []
 	},
+	{
+		"type": "imbuement",
+		"key": "imbue:spiked",
+		"label": "Spiked",
+		"itemPredicate": [
+			"item:type:armor"
+		],
+		"monsterPredicate": [
+			{
+				"and": [
+					"item:type:action",
+					{
+						"or": [
+							"item:action:type:reaction",
+							"item:action:type:free",
+							{
+								"not": {
+									"or": [
+										"item:action:cost:1",
+										"item:action:cost:2",
+										"item:action:cost:3"
+									]
+								}
+							}
+						]
+					},
+					{
+						"or": [
+							"item:damage:type:slashing",
+							"item:damage:type:piercing"
+						]
+					}
+				]
+			}
+		],
+		"header": {
+			"description": "This imbuement has not been implemented in the Monster Parts Module yet, so you'll have to apply the effects manually. Ask your GM for access to @UUID[Compendium.battlezoo-bestiary-es-pf2e.journals.fdIszM08XRK0s42e.JournalEntryPage.jR1WQitzcUbbbQKR]{Armor Imbued Property @ 3. Monster Parts}",
+			"labels": []
+		},
+		"effects": []
+	},
+	{
+		"type": "imbuement",
+		"key": "imbue:body:might",
+		"label": "Body (Might)",
+		"itemPredicate": [{"and": ["item:tag:handwraps-of-mighty-blows","item:type:weapon"]}],
+		"monsterPredicate": [
+            {
+                "or": [
+                    "self:size:huge",
+					"self:size:gargantuan",
+                    {
+                        "or": [
+                            {
+                                "and": [
+                                    "item:type:action",
+									{"or": [
+										"item:trait:morph",
+										"item:trait:polymorph"
+										]
+									}
+                                ]
+                            },
+                            {
+                                "and": [
+                                    "item:type:spell",
+                                    {"or": [
+										"item:trait:morph",
+										"item:trait:polymorph"
+										]
+									}
+                                ]
+                            }
+                        ]
+                    }
+                ]
+			}
+		],
+		"header": {
+			"description": "This imbuement has not been implemented in the Monster Parts Module yet, so you'll have to apply the effects manually. Ask your GM for access to @UUID[Compendium.battlezoo-bestiary-es-pf2e.journals.fdIszM08XRK0s42e.JournalEntryPage.lWDVu4i8zChyqQaT]{Weapon Imbued Property @ 3. Monster Parts}",
+			"labels": []
+		},
+		"effects": []
+	},
+	{
+		"type": "imbuement",
+		"key": "imbue:body:magic",
+		"label": "Body (Magic)",
+		"itemPredicate": [{"and": ["item:tag:handwraps-of-mighty-blows","item:type:weapon"]}],
+		"monsterPredicate": [
+            {
+                "or": [
+                    "self:size:huge",
+					"self:size:gargantuan",
+                    {
+                        "or": [
+                            {
+                                "and": [
+                                    "item:type:action",
+									{"or": [
+										"item:trait:morph",
+										"item:trait:polymorph"
+										]
+									}
+                                ]
+                            },
+                            {
+                                "and": [
+                                    "item:type:spell",
+                                    {"or": [
+										"item:trait:morph",
+										"item:trait:polymorph"
+										]
+									}
+                                ]
+                            }
+                        ]
+                    }
+                ]
+			}
+		],
+		"header": {
+			"description": "This imbuement has not been implemented in the Monster Parts Module yet, so you'll have to apply the effects manually. Ask your GM for access to @UUID[Compendium.battlezoo-bestiary-es-pf2e.journals.fdIszM08XRK0s42e.JournalEntryPage.lWDVu4i8zChyqQaT]{Weapon Imbued Property @ 3. Monster Parts}",
+			"labels": []
+		},
+		"effects": []
+	},
+	{
+		"type": "imbuement",
+		"key": "imbue:body:tech",
+		"label": "Body (Technique)",
+		"itemPredicate": [{"and": ["item:tag:handwraps-of-mighty-blows","item:type:weapon"]}],
+		"monsterPredicate": [
+            {
+                "or": [
+                    "self:size:huge",
+					"self:size:gargantuan",
+                    {
+                        "or": [
+                            {
+                                "and": [
+                                    "item:type:action",
+									{"or": [
+										"item:trait:morph",
+										"item:trait:polymorph"
+										]
+									}
+                                ]
+                            },
+                            {
+                                "and": [
+                                    "item:type:spell",
+                                    {"or": [
+										"item:trait:morph",
+										"item:trait:polymorph"
+										]
+									}
+                                ]
+                            }
+                        ]
+                    }
+                ]
+			}
+		],
+		"header": {
+			"description": "This imbuement has not been implemented in the Monster Parts Module yet, so you'll have to apply the effects manually. Ask your GM for access to @UUID[Compendium.battlezoo-bestiary-es-pf2e.journals.fdIszM08XRK0s42e.JournalEntryPage.lWDVu4i8zChyqQaT]{Weapon Imbued Property @ 3. Monster Parts}",
+			"labels": []
+		},
+		"effects": []
+	},
