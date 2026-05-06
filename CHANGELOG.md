@@ -1,3 +1,8 @@
+May 6th
+- Moved Spiked into the archive.
+- Moved Darkness and Earth into the S&U band-aid JSON. These were previously two separate JSONs.
+- Moved Air into the archive.
+
 May 4 2026
 - Removed Mind and Body imbued properties into the archive. These are both now implemented in the Kromko module so their band-aid is no longer needed.
 
