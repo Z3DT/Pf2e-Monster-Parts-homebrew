@@ -328,7 +328,8 @@
 				},
 				{
 					"levelMin": 14,
-					"levelMax": "Strikes with the weapon deal 1 additional piercing damage from spikes of stone and 1d8 persistent piercing as stone spikes grow and pierce them; this additional damage and persistent damage each have the earth trait"
+					"levelMax": 16,
+					"text": "Strikes with the weapon deal 1 additional piercing damage from spikes of stone and 1d8 persistent piercing as stone spikes grow and pierce them; this additional damage and persistent damage each have the earth trait"
 				},
 				{
 					"levelMin": 17,
