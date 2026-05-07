@@ -4,11 +4,9 @@ Feel free to submit Pull Requests or dm me with your own homebrew refinement and
 
 # JSONs for official imbuements
 Added because the Kromko module doesn't have these properties yet, as a band-aid solution:
-- Air (S&U) (Descriptions only, no automation)
-- Darkness (S&U), (Descriptions only, no automation)
-- Earth (S&U), (Descriptions only, no automation)
 - All imbued properties from Elemental Storm (No descriptions, no automation)
 - All imbued properties from Strange and Unusual (No descriptions, no automation)
+  - Air, Darkness and Earth have their descriptions automated, but not their effects.
 
 # List of Homebrew + Credit
 ### Refinements
