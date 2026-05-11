@@ -1,3 +1,6 @@
+May 11 2026
+- Moved Darkness into the archive as per Monster Parts module 0.7.0
+
 May 6th
 - Moved Spiked into the archive.
 - Moved Darkness and Earth into the S&U band-aid JSON. These were previously two separate JSONs.
