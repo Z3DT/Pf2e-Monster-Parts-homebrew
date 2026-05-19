@@ -212,46 +212,6 @@
 	},
 	{
 		"type": "imbuement",
-		"key": "imbue:mirrored",
-		"label": "Mirrored",
-		"itemPredicate": [
-			"item:type:shield"
-		],
-		"monsterPredicate": [
-			{
-				"or": [
-					{
-						"and": [
-							"item:type:action",
-							{
-								"or": [
-									"item:golem-golem-antimagic",
-									"item:counterspell",
-									"item:sin-counterspell",
-									"item:mythic-counterspell",
-									"item:clever-counterspell",
-									"item:masters-counterspell",
-									"item:1-status-to-all-saves-vs-magic",
-									"item:2-status-to-all-saves-vs-magic",
-									"item:3-status-to-all-saves-vs-magic",
-									"item:4-status-to-all-saves-vs-magic",
-									"item:5-status-to-all-saves-vs-magic",
-									"item:trait:deflecting-physical-ranged"
-								]
-							}
-						]
-					}
-				]
-			}
-		],
-		"header": {
-			"description": "This imbuement has not been implemented in the Monster Parts Module yet, so you'll have to apply the effects manually. Ask your GM for access to @UUID[Compendium.battlezoo-bestiary-su-pf2e.pf2e-battlezoo-su-monster-parts.JournalEntry.JbErDkeBQUxkKo2b]{Battlezoo Bestiary Strange and Unusual - Imbued Properties}",
-			"labels": []
-		},
-		"effects": []
-	},
-	{
-		"type": "imbuement",
 		"key": "imbue:throwing",
 		"label": "Throwing",
 		"itemPredicate": [

@@ -1,3 +1,6 @@
+May 19 2026
+- Moved Dark Armor, Burning Barbs, Holy, Unholy, and Mirrored into the archive as per Monster Parts module 0.7.4
+
 May 11 2026
 - Moved Darkness into the archive as per Monster Parts module 0.7.0
 

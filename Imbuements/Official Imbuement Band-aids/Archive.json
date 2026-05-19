@@ -1,3 +1,5 @@
+Note: This JSON file is not meant to be a functioning JSON, but rather an archive of the Band-Aids that are no longer necessary due to implementation in the Kromko module.
+
 {
 		"type": "imbuement",
 		"key": "imbue:air:magic",
@@ -671,6 +673,407 @@
 					"text": "The persistent darkness devours the light. Each time the target takes the persistent cold damage from this property, the darkness attempts to counteract one light effect on the target or the target’s belongings with a counteract rank of 10 and a counteract modifier of +33."
 				}
 			]
+		},
+		"effects": []
+	},
+	{
+		"type": "imbuement",
+		"key": "imbue:dark-armor",
+		"label": "Dark Armor",
+		"itemPredicate": [
+			"item:type:armor"
+		],
+		"monsterPredicate": [
+            {
+                "or": [
+                    "self:trait:darkness",
+					"self:trait:shadow",
+                    {
+                        "or": [
+                            {
+                                "and": [
+                                    "item:type:action",
+									{"or": [
+										"item:damage:type:darkness",
+										"item:damage:type:shadow",
+										"item:trait:darkness",
+										"item:trait:shadow"
+										]
+									}
+                                ]
+                            },
+                            {
+                                "and": [
+                                    "item:type:spell",
+                                    {"or": [
+										"item:damage:type:darkness",
+										"item:damage:type:shadow",
+										"item:trait:darkness",
+										"item:trait:shadow"
+										]
+									}
+                                ]
+                            }
+                        ]
+                    }
+                ]
+			}
+		],
+		"header": {
+			"description": "This imbuement has not been implemented in the Monster Parts Module yet, so you'll have to apply the effects manually. Ask your GM for access to @UUID[Compendium.battlezoo-bestiary-es-pf2e.journals.fdIszM08XRK0s42e.JournalEntryPage.jR1WQitzcUbbbQKR]{Armor Imbued Property @ 3. Monster Parts}",
+			"labels": []
+		},
+		"effects": []
+	},
+	{
+		"type": "imbuement",
+		"key": "imbue:burning-barbs",
+		"label": "Burning Barbs",
+		"itemPredicate": [
+		{
+			"gte":[
+				"item:refinement:skill:intimidation",0
+				]
+		}
+	],
+		"monsterPredicate": [
+            {
+                "or": [
+                    "self:trait:fire",
+                    {
+                        "or": [
+                            {
+                                "and": [
+                                    "item:type:action",
+									{"or": [
+										"item:damage:type:fire",
+										"item:trait:fire"
+										]
+									}
+                                ]
+                            },
+                            {
+                                "and": [
+                                    "item:type:spell",
+                                    {"or": [
+										"item:damage:type:fire",
+										"item:trait:fire"
+										]
+									}
+                                ]
+                            }
+                        ]
+                    }
+                ]
+			}
+		],
+		"header": {
+			"description": "This imbuement has not been implemented in the Monster Parts Module yet, so you'll have to apply the effects manually. Ask your GM for access to @UUID[Compendium.battlezoo-bestiary-es-pf2e.journals.fdIszM08XRK0s42e.JournalEntryPage.6EiToFmtJh9KShTi]{Skill Imbued Property @ 3. Monster Parts}",
+			"labels": []
+		},
+		"effects": []
+	},
+	{
+		"type": "imbuement",
+		"key": "imbue:holy:might",
+		"label": "Holy (Might)",
+		"itemPredicate": [
+			"item:type:weapon"
+		],
+		"monsterPredicate": [
+            {
+                "or": [
+                    "self:trait:holy",
+                    {
+                        "or": [
+                            {
+                                "and": [
+                                    "item:type:action",
+									{"or": [
+										"item:damage:type:holy",
+										"item:trait:holy"
+										]
+									}
+                                ]
+                            },
+                            {
+                                "and": [
+                                    "item:type:spell",
+                                    {"or": [
+										"item:damage:type:holy",
+										"item:trait:holy"
+										]
+									}
+                                ]
+                            }
+                        ]
+                    }
+                ]
+			}
+		],
+		"header": {
+			"description": "This imbuement has not been implemented in the Monster Parts Module yet, so you'll have to apply the effects manually. Ask your GM for access to @UUID[Compendium.battlezoo-bestiary-es-pf2e.journals.fdIszM08XRK0s42e.JournalEntryPage.lWDVu4i8zChyqQaT]{Weapon Imbued Property @ 3. Monster Parts}",
+			"labels": []
+		},
+		"effects": []
+	},
+	{
+		"type": "imbuement",
+		"key": "imbue:holy:magic",
+		"label": "Holy (Magic)",
+		"itemPredicate": [
+			"item:type:weapon"
+		],
+		"monsterPredicate": [
+            {
+                "or": [
+                    "self:trait:holy",
+                    {
+                        "or": [
+                            {
+                                "and": [
+                                    "item:type:action",
+									{"or": [
+										"item:damage:type:holy",
+										"item:trait:holy"
+										]
+									}
+                                ]
+                            },
+                            {
+                                "and": [
+                                    "item:type:spell",
+                                    {"or": [
+										"item:damage:type:holy",
+										"item:trait:holy"
+										]
+									}
+                                ]
+                            }
+                        ]
+                    }
+                ]
+			}
+		],
+		"header": {
+			"description": "This imbuement has not been implemented in the Monster Parts Module yet, so you'll have to apply the effects manually. Ask your GM for access to @UUID[Compendium.battlezoo-bestiary-es-pf2e.journals.fdIszM08XRK0s42e.JournalEntryPage.lWDVu4i8zChyqQaT]{Weapon Imbued Property @ 3. Monster Parts}",
+			"labels": []
+		},
+		"effects": []
+	},
+	{
+		"type": "imbuement",
+		"key": "imbue:holy:tech",
+		"label": "Holy (Technique)",
+		"itemPredicate": [
+			"item:type:weapon"
+		],
+		"monsterPredicate": [
+            {
+                "or": [
+                    "self:trait:holy",
+                    {
+                        "or": [
+                            {
+                                "and": [
+                                    "item:type:action",
+									{"or": [
+										"item:damage:type:holy",
+										"item:trait:holy"
+										]
+									}
+                                ]
+                            },
+                            {
+                                "and": [
+                                    "item:type:spell",
+                                    {"or": [
+										"item:damage:type:holy",
+										"item:trait:holy"
+										]
+									}
+                                ]
+                            }
+                        ]
+                    }
+                ]
+			}
+		],
+		"header": {
+			"description": "This imbuement has not been implemented in the Monster Parts Module yet, so you'll have to apply the effects manually. Ask your GM for access to @UUID[Compendium.battlezoo-bestiary-es-pf2e.journals.fdIszM08XRK0s42e.JournalEntryPage.lWDVu4i8zChyqQaT]{Weapon Imbued Property @ 3. Monster Parts}",
+			"labels": []
+		},
+		"effects": []
+	},
+	{
+		"type": "imbuement",
+		"key": "imbue:unholy:might",
+		"label": "Unholy (Might)",
+		"itemPredicate": [
+			"item:type:weapon"
+		],
+		"monsterPredicate": [
+            {
+                "or": [
+                    "self:trait:unholy",
+                    {
+                        "or": [
+                            {
+                                "and": [
+                                    "item:type:action",
+									{"or": [
+										"item:damage:type:unholy",
+										"item:trait:unholy"
+										]
+									}
+                                ]
+                            },
+                            {
+                                "and": [
+                                    "item:type:spell",
+                                    {"or": [
+										"item:damage:type:unholy",
+										"item:trait:unholy"
+										]
+									}
+                                ]
+                            }
+                        ]
+                    }
+                ]
+			}
+		],
+		"header": {
+			"description": "This imbuement has not been implemented in the Monster Parts Module yet, so you'll have to apply the effects manually. Ask your GM for access to @UUID[Compendium.battlezoo-bestiary-es-pf2e.journals.fdIszM08XRK0s42e.JournalEntryPage.lWDVu4i8zChyqQaT]{Weapon Imbued Property @ 3. Monster Parts}",
+			"labels": []
+		},
+		"effects": []
+	},
+	{
+		"type": "imbuement",
+		"key": "imbue:unholy:magic",
+		"label": "Unholy (Magic)",
+		"itemPredicate": [
+			"item:type:weapon"
+		],
+		"monsterPredicate": [
+            {
+                "or": [
+                    "self:trait:unholy",
+                    {
+                        "or": [
+                            {
+                                "and": [
+                                    "item:type:action",
+									{"or": [
+										"item:damage:type:unholy",
+										"item:trait:unholy"
+										]
+									}
+                                ]
+                            },
+                            {
+                                "and": [
+                                    "item:type:spell",
+                                    {"or": [
+										"item:damage:type:unholy",
+										"item:trait:unholy"
+										]
+									}
+                                ]
+                            }
+                        ]
+                    }
+                ]
+			}
+		],
+		"header": {
+			"description": "This imbuement has not been implemented in the Monster Parts Module yet, so you'll have to apply the effects manually. Ask your GM for access to @UUID[Compendium.battlezoo-bestiary-es-pf2e.journals.fdIszM08XRK0s42e.JournalEntryPage.lWDVu4i8zChyqQaT]{Weapon Imbued Property @ 3. Monster Parts}",
+			"labels": []
+		},
+		"effects": []
+	},
+	{
+		"type": "imbuement",
+		"key": "imbue:unholy:tech",
+		"label": "Unholy (Technique)",
+		"itemPredicate": [
+			"item:type:weapon"
+		],
+		"monsterPredicate": [
+            {
+                "or": [
+                    "self:trait:unholy",
+                    {
+                        "or": [
+                            {
+                                "and": [
+                                    "item:type:action",
+									{"or": [
+										"item:damage:type:unholy",
+										"item:trait:unholy"
+										]
+									}
+                                ]
+                            },
+                            {
+                                "and": [
+                                    "item:type:spell",
+                                    {"or": [
+										"item:damage:type:unholy",
+										"item:trait:unholy"
+										]
+									}
+                                ]
+                            }
+                        ]
+                    }
+                ]
+			}
+		],
+		"header": {
+			"description": "This imbuement has not been implemented in the Monster Parts Module yet, so you'll have to apply the effects manually. Ask your GM for access to @UUID[Compendium.battlezoo-bestiary-es-pf2e.journals.fdIszM08XRK0s42e.JournalEntryPage.lWDVu4i8zChyqQaT]{Weapon Imbued Property @ 3. Monster Parts}",
+			"labels": []
+		},
+		"effects": []
+	},
+	{
+		"type": "imbuement",
+		"key": "imbue:mirrored",
+		"label": "Mirrored",
+		"itemPredicate": [
+			"item:type:shield"
+		],
+		"monsterPredicate": [
+			{
+				"or": [
+					{
+						"and": [
+							"item:type:action",
+							{
+								"or": [
+									"item:golem-golem-antimagic",
+									"item:counterspell",
+									"item:sin-counterspell",
+									"item:mythic-counterspell",
+									"item:clever-counterspell",
+									"item:masters-counterspell",
+									"item:1-status-to-all-saves-vs-magic",
+									"item:2-status-to-all-saves-vs-magic",
+									"item:3-status-to-all-saves-vs-magic",
+									"item:4-status-to-all-saves-vs-magic",
+									"item:5-status-to-all-saves-vs-magic",
+									"item:trait:deflecting-physical-ranged"
+								]
+							}
+						]
+					}
+				]
+			}
+		],
+		"header": {
+			"description": "This imbuement has not been implemented in the Monster Parts Module yet, so you'll have to apply the effects manually. Ask your GM for access to @UUID[Compendium.battlezoo-bestiary-su-pf2e.pf2e-battlezoo-su-monster-parts.JournalEntry.JbErDkeBQUxkKo2b]{Battlezoo Bestiary Strange and Unusual - Imbued Properties}",
+			"labels": []
 		},
 		"effects": []
 	},
