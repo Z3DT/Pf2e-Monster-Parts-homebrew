@@ -1,3 +1,6 @@
+May 22 2026
+- Moved Earth Armor to archive as per Monster Parts module 0.7.5
+
 May 19 2026
 - Moved Dark Armor, Burning Barbs, Holy, Unholy, and Mirrored into the archive as per Monster Parts module 0.7.4
 

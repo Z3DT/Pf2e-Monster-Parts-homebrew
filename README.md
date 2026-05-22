@@ -3,7 +3,7 @@ A repo for homebrewed Refinements and Imbued Properties for use with the PF2e/SF
 Feel free to submit Pull Requests or dm me with your own homebrew refinement and imbued property JSONs. That way we can have one central collection of homebrew
 
 # JSONs for official imbuements
-Added because the Kromko module doesn't have these properties yet, as a band-aid solution:
+Added because the Kromko module doesn't have all of these properties yet, as a band-aid solution:
 - All imbued properties from Elemental Storm (No descriptions, no automation)
 - All imbued properties from Strange and Unusual (No descriptions, no automation)
   - Air and Earth have their descriptions automated, but not their effects.
