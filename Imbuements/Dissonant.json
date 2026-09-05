@@ -1,0 +1,72 @@
+{
+		"type": "imbuement",
+		"key": "imbue:dissonant",
+		"label": "Dissonant",
+		"itemPredicate": [
+			"item:type:weapon"
+		],
+		"monsterPredicate": [
+            "self:trait:dissonant",
+                {
+					"or":[
+						{"and": [
+							"item:type:action",
+							"item:trait:dissonant"
+						]},
+						{"and": [
+							"item:type:spell",
+							"item:trait:dissonant"
+						]}
+					]
+				}
+            ],
+		"header": {
+			"description": "Dissonance radiates from this weapon. Weapons imbued with this property gain the dissonant and occult traits. Only dissonant creatures, goliaths, or Vestige Hunters who have consumed at least one dissonant vestige can wield dissonant weapons.",
+			"labels": [
+				{
+					"levelMin": 2,
+					"text": "The weapon can cast gale blast as a cantrip, heightened to half the item's level rounded up. Whenever you cast a spell from this weapon, you must roll a will save against a Level-based DC of this imbuement's level. You gain a circumstance bonus to this saving throw equal to the amount of dissonant vestiges you have consumed. On a failure, you become Confused for one round immediately after the effects of the spell have resolved."
+				},
+				{
+					"levelMin": 4,
+					"text": "The weapon can cast gust of wind once per day."
+				},
+				{
+					"levelMin": 6,
+					"levelMax": 13,
+					"text": "Strikes with the weapon deal 1 additional slashing damage from blades of wind; this additional damage has the air trait."
+				},
+				{
+					"levelMin": 8,
+					"text": "The weapon can cast wall of wind once per day."
+				},
+				{
+					"levelMin": 10,
+					"text": "The weapon can cast air walk once per day."
+				},
+				{
+					"levelMin": 12,
+					"levelMax": 17,
+					"text": "The weapon can cast elemental gift (air only) once per day."
+				},
+				{
+					"levelMin": 14,
+					"levelMax": 15,
+					"text": "Strikes with the weapon deal 1d4 additional slashing damage from blades of wind; this additional damage has the air trait."
+				},
+				{
+					"levelMin": 16,
+					"text": "Strikes with the weapon deal 1d6 additional slashing damage from blades of wind; this additional damage has the air trait."
+				},
+				{
+					"levelMin": 18,
+					"text": "The weapon can cast 8th-rank elemental gift (air only) once per day."
+				},
+				{
+					"levelMin": 20,
+					"text": "The weapon can cast 9th-rank whirlwind once per day."
+				}
+			]
+		},
+		"effects": []
+	}
